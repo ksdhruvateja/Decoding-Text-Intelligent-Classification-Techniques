@@ -10,7 +10,7 @@ A sophisticated **Multi-Stage Mental Health Text Classifier** that combines BERT
 - **Rule-Based Overrides**: Catches edge cases and ensures safety
 - **React Frontend**: Beautiful, modern UI for text classification
 - **Flask Backend**: RESTful API with comprehensive endpoints
-- **Vercel Ready**: Fully configured for Vercel deployment
+- **Netlify Ready**: Fully configured for Netlify deployment
 
 ## 🏗️ Architecture
 
@@ -27,9 +27,6 @@ See [MODEL_ARCHITECTURE_DOCUMENTATION.md](./MODEL_ARCHITECTURE_DOCUMENTATION.md)
 
 ```
 .
-├── api/                    # Vercel serverless functions
-│   ├── index.py           # Main API handler
-│   └── requirements.txt   # Python dependencies
 ├── backend/               # Backend Python code
 │   ├── app.py            # Flask application
 │   ├── multistage_classifier.py  # Main classifier
@@ -38,7 +35,10 @@ See [MODEL_ARCHITECTURE_DOCUMENTATION.md](./MODEL_ARCHITECTURE_DOCUMENTATION.md)
 ├── frontend/             # React frontend
 │   ├── src/
 │   └── package.json
-├── vercel.json           # Vercel configuration
+├── netlify/              # Netlify serverless functions
+│   └── functions/
+│       └── classify.js   # API proxy
+├── netlify.toml          # Netlify configuration
 └── README.md
 ```
 
@@ -68,14 +68,16 @@ npm start
 
 Frontend runs on `http://localhost:3000`
 
-### Vercel Deployment
+### Netlify Deployment
 
-See [VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md) for complete deployment guide.
+See [NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md) for complete deployment guide.
 
 **Quick Deploy**:
-1. Push code to GitHub
-2. Import project in Vercel
-3. Deploy!
+1. Deploy backend to Render/Railway (see guide)
+2. Push code to GitHub
+3. Import project in Netlify
+4. Set `BACKEND_URL` environment variable
+5. Deploy!
 
 ## 📡 API Endpoints
 
@@ -161,7 +163,7 @@ REACT_APP_API_URL=/api
 
 - **[MODEL_ARCHITECTURE_DOCUMENTATION.md](./MODEL_ARCHITECTURE_DOCUMENTATION.md)** - Complete architecture guide
 - **[FILE_STRUCTURE_VISUAL.md](./FILE_STRUCTURE_VISUAL.md)** - File structure visualization
-- **[VERCEL_DEPLOYMENT.md](./VERCEL_DEPLOYMENT.md)** - Vercel deployment guide
+- **[NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md)** - Netlify deployment guide
 - **[backend/QUICK_FIX_TRAINING.md](./backend/QUICK_FIX_TRAINING.md)** - Training guide
 
 ## 🛠️ Technologies
@@ -169,7 +171,7 @@ REACT_APP_API_URL=/api
 - **Frontend**: React, CSS3
 - **Backend**: Flask, Python
 - **ML**: PyTorch, Transformers (BERT)
-- **Deployment**: Vercel
+- **Deployment**: Netlify (Frontend), Render/Railway (Backend)
 - **Version Control**: Git, GitHub
 
 ## 📝 License
