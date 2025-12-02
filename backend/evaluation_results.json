@@ -1,0 +1,182 @@
+[
+  {
+    "text": "I'm so happy today!",
+    "expected": "positive",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I love my life!",
+    "expected": "positive",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm grateful for everything!",
+    "expected": "positive",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "Today is wonderful!",
+    "expected": "positive",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I feel amazing!",
+    "expected": "positive",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I went to the store.",
+    "expected": "neutral",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "What time is the meeting?",
+    "expected": "neutral",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I have an appointment tomorrow.",
+    "expected": "neutral",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "It's raining outside.",
+    "expected": "neutral",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I live in the city.",
+    "expected": "neutral",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm worried about my exam tomorrow.",
+    "expected": "stress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm stressed about this deadline.",
+    "expected": "stress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I feel overwhelmed with work.",
+    "expected": "stress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm anxious about my presentation.",
+    "expected": "stress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm nervous about the interview.",
+    "expected": "stress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I feel so sad all the time.",
+    "expected": "emotional_distress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "Everything feels meaningless.",
+    "expected": "emotional_distress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm struggling with depression.",
+    "expected": "emotional_distress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I feel hopeless about the future.",
+    "expected": "emotional_distress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I can't stop crying.",
+    "expected": "emotional_distress",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I sometimes think about not being here.",
+    "expected": "self_harm_low",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I've been having thoughts about disappearing.",
+    "expected": "self_harm_low",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I wonder if things would be better without me.",
+    "expected": "self_harm_low",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "Sometimes I wish I could just escape from everything.",
+    "expected": "self_harm_low",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I've thought about what it would be like to not exist.",
+    "expected": "self_harm_low",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I want to hurt myself right now.",
+    "expected": "self_harm_high",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm going to kill myself tonight.",
+    "expected": "self_harm_high",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I want to end my life today.",
+    "expected": "self_harm_high",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I'm planning to hurt myself.",
+    "expected": "self_harm_high",
+    "predicted": "unknown",
+    "pass": false
+  },
+  {
+    "text": "I have a plan to end it all.",
+    "expected": "self_harm_high",
+    "predicted": "unknown",
+    "pass": false
+  }
+]

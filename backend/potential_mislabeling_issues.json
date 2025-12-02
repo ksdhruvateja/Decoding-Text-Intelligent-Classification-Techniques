@@ -1,0 +1,110 @@
+[
+  {
+    "index": 71,
+    "text": "I'm scared of my potential to harm myself",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 106,
+    "text": "I'm scared I might hurt myself accidentally",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 116,
+    "text": "I've been considering ways to harm myself",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 142,
+    "text": "I'm afraid I might hurt myself when things get bad",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 153,
+    "text": "I've been thinking about ways to hurt myself",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 174,
+    "text": "I'm scared I could hurt myself when upset",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 214,
+    "text": "I'm worried I could hurt myself without meaning to",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 246,
+    "text": "I've been having urges to harm myself",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 327,
+    "text": "I'm worried I could hurt myself if pushed too far",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 388,
+    "text": "I'm afraid I might hurt myself if I don't get help",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 419,
+    "text": "I'm afraid I might hurt myself to feel something",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 421,
+    "text": "I'm scared I could hurt myself if things get worse",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 422,
+    "text": "I've been thinking about ways to end my pain",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 465,
+    "text": "I've been tempted to hurt myself",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 470,
+    "text": "I'm afraid I might hurt myself in a dark moment",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 505,
+    "text": "I'm afraid I might hurt myself to escape",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 538,
+    "text": "I'm worried I could hurt myself",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  },
+  {
+    "index": 551,
+    "text": "I'm worried I might hurt myself someday",
+    "issue": "Severe risk text not marked as self_harm_high",
+    "severity": "CRITICAL"
+  }
+]

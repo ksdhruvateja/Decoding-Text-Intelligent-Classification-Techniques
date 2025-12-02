@@ -1,0 +1,310 @@
+[
+  {
+    "text": "I'm not saying I want to hurt myself, but sometimes I wonder if anyone would notice if I was gone.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Sometimes I think about what it would be like if I wasn't here anymore. Not that I would do anything, just wondering.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having thoughts that maybe I'm not meant to be here, you know? Like maybe the world would be better off.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I wonder if anyone would care if I disappeared. Probably not.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking a lot lately about how life seems to be getting harder and harder, and even though I try to stay positive and tell myself things will get better, there are moments when I feel completely overwhelmed and wonder if I'm strong enough to handle everything that's coming my way.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I know I should be happy because I have everything I need, but I can't shake this feeling of emptiness, and even though I try to focus on the positive, the negative thoughts keep creeping in.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Everything feels so heavy right now, like I'm carrying the weight of the world on my shoulders, and no matter how hard I try, I can't seem to find a way to make things better or feel like myself again.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm excited about the new job but also terrified because I don't know if I'm good enough and I'm worried I'll fail and disappoint everyone.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm happy about the promotion but anxious about the increased responsibility and scared I won't be able to handle it.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I should be grateful for what I have, but I can't help feeling sad and empty inside, like something is missing.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't take this anymore. I really can't.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm done. I can't do this anymore.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "This is too much. I can't handle it.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "The project didn't go as planned, and I'm disappointed, but I'll learn from this experience and do better next time.",
+    "labels": {
+      "neutral": 1,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I made a mistake, but I'm going to fix it and make sure it doesn't happen again.",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Things didn't work out the way I hoped, but I'm determined to keep trying and improve.",
+    "labels": {
+      "neutral": 1,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "If they don't stop bothering me, I'm going to make them regret it. I know exactly what I'll do.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to hurt them if they don't leave me alone.",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "They better watch out because I'm not going to take this anymore.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm drowning in responsibilities and there's no one to throw me a lifeline.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm suffocating under all this pressure and can't breathe.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm trapped in this situation with no way out.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What's the point of trying when nothing ever works out? Why do I even bother?",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Why does everything always go wrong? What did I do to deserve this?",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What's the use? Nothing I do matters anyway.",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I used to think about hurting myself, but I'm in a much better place now and have support.",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I had thoughts of suicide in the past, but I've been getting help and things are improving.",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I used to feel hopeless, but now I'm working with a therapist and making progress.",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  }
+]

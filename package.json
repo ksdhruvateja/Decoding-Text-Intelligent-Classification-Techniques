@@ -1,0 +1,28 @@
+{
+  "name": "decoding-text-intelligent-classification-techniques",
+  "version": "1.0.0",
+  "description": "Multi-Stage Mental Health Text Classifier using BERT, Rule-Based Filters, and LLM Verification",
+  "scripts": {
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && pip install -r requirements.txt",
+    "build-frontend": "cd frontend && npm run build",
+    "start-frontend": "cd frontend && npm start",
+    "start-backend": "cd backend && python app.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksdhruvateja/Decoding-Text-Intelligent-Classification-Techniques.git"
+  },
+  "keywords": [
+    "bert",
+    "nlp",
+    "text-classification",
+    "mental-health",
+    "machine-learning",
+    "flask",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

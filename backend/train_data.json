@@ -1,0 +1,6415 @@
+[
+  {
+    "text": "How do I bake cookies?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being pursued by someone dangerous",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having panic attacks frequently",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't find any light",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have everything ready to kill myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm analyzing market trends",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel completely defeated",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I configure settings?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm struggling with work-life balance",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like there's no hope left",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't feel safe at home",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you explain quantum physics?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone keeps showing up uninvited",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with lack of support",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to end my suffering tonight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm tired from constant alertness",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "This document has important details",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm feeling the burden of expectations",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm always on call",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm comparing different options",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having thoughts about taking drastic action",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm struggling to maintain routines",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How does photosynthesis work?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't bear living another moment",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't imagine feeling better",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being bullied at school",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm falling apart",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel so guilty about everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stop the tears",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of where this is heading",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What format should I use?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated by unexpected challenges",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have a suicide note written",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't control my anxiety",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't find meaning in anything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are benefits of exercise?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried about job security",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "The workload is really intense",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm experiencing cyber threats with real danger",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having thoughts about harming myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might not be able to stop myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared I might not be able to resist much longer",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm not good enough",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the protocol?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't see any reason to stay alive",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm scared of losing the fight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I witnessed a violent incident",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about health appointments",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being physically abused",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone hit me and I'm hurt",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I apply for this job?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where is the user manual?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel worthless to everyone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of where my thoughts are going",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning to take my life soon",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like I'm drowning in despair",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to take lethal action",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Someone is hurting me repeatedly",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking about hurting myself when alone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being coerced into something",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm in a hostile environment",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of what I might do",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning to end it all",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm seeking guidance",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm struggling with severe anxiety",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm losing all motivation",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I won't be strong enough to resist",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is best practice?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might lose control",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm compiling resource lists",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I improve my writing?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of my potential to harm myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I don't deserve to live",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like I'm in endless pain",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid to sleep at night",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't find peace in my mind",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm struggling to keep organized",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stop worrying about everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm asking for clarification",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you send the link?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to end my life immediately",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Where is the conference room?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are the steps to solve this?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where do I submit applications?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared to speak up about abuse",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't see any way out of darkness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm anxious about performance review",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of my own thoughts lately",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't relax with so much to do",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the registration procedure?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't find joy in things I loved",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being victimized repeatedly",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm researching career options",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm feeling pressured by commitments",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want my life to be over",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm having trouble disconnecting",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed by information",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is threatening my safety",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having sleep trouble from stress",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed by competing demands",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I install this software?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm fading away",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm struggling with severe depression",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid to go home",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I need protection from someone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone broke into my house",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared I might hurt myself accidentally",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't live another day and won't",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm worried about my dark thoughts",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What causes climate change?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being attacked verbally and physically",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm ready to die by suicide",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Where can I find history info?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to harm myself fatally tonight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm scared of someone's behavior",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm looking at the schedule",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been considering ways to harm myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "This semester is challenging",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about keeping up appearances",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm drowning in tasks",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of what I might do eventually",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm spiraling downward",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to hurt myself badly",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Can you list the main features?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have suicide plans ready",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm going to die by suicide soon",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm feeling stretched in all directions",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to jump off this building",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Where are the instructions?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What options are available?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I might act impulsively",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed by negative emotions",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I calculate this?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stop thinking about tasks",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to harm myself fatally",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm being terrorized by someone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with demands",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm being swallowed by darkness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I need perfection",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I need visa requirement info",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where is the library?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm terrified of the future",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might hurt myself when things get bad",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Can you outline the main points?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm experiencing hate crimes",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you suggest study techniques?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is abusing their power over me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having a hard time with this situation",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being threatened with harm",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have so much work and not enough time",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are the next steps?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the price?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "There's domestic violence happening",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking about ways to hurt myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm having time management difficulty",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I could do something bad",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to crash my car intentionally",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Someone is cornering me physically",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about exam preparation",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What should I do next?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm tired of constant pressure",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where can I access online courses?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of being hurt again",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm lost and don't know who I am",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't live like this anymore and I'm ending it",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm consumed by worry and fear",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of what I might do if things don't improve",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm disappearing",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried about my impulses",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have the gun loaded",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't see any light at the end",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to end my life before Monday",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like I can't slow down",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone won't leave me alone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared I could hurt myself when upset",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm feeling the weight of duties",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you list the requirements?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "There's violence in my neighborhood",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel broken and can't be fixed",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm consumed by hopelessness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed by appointments",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to kill myself very soon",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm going to commit suicide soon",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm stressed about family responsibilities",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel constantly on edge",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What materials do I need?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't escape this mental pain",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having urges I'm trying to fight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm annoyed by how much I have to do",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't get ahead of my to-do list",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of what I think about doing",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm constantly multitasking",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of what might happen tonight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm feeling burnt out from caregiving",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is trying to isolate me dangerously",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking thoughts that frighten me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm losing my grip on reality",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might do something I'll regret",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried these thoughts are getting stronger",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm terrified of everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning my death",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Can you define these terms?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm barely surviving",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might lose this battle",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't see any point in continuing to live",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Work pressure is getting to me",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed by multiple projects",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I need help getting away",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel overwhelmed by household chores",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't shake this feeling of doom",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are membership requirements?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't handle these emotions",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "This project is stressing me out",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm completely overwhelmed by depression",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I could hurt myself without meaning to",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't handle life anymore",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where are the examples?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm curious about ancient civilizations",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like life is meaningless",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm so anxious I can't breathe",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to harm myself lethally",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm afraid violence will happen",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are the details?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about scheduling",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm so depressed I can't think clearly",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with my energy level",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where do I sign up?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't seem to catch a break",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid these thoughts mean something bad",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have picked the day to kill myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm feeling the weight of expectations",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "When does class start?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about achieving goals",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel completely alone in this",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm in a dark hole",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I need technical specifications",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to die right now",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I need a vacation, I'm worn out",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have made my suicide plan",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm scared of the person I live with",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is water's chemical composition?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I need a break desperately",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having thoughts about ending the suffering",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel empty inside",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm evaluating various solutions",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to harm myself fatally soon",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I've been having urges to harm myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm overwhelmed by information overload",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm juggling too much",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is stalking my movements",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are common interview questions?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stop the negative thoughts",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having trouble coping with changes",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the capital of France?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm taking my life this weekend",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like I'm playing catch-up",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I've lost everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't want to exist anymore",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Where is more information?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm always behind",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might give in to the pain",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is attacking my character and person",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is standard procedure?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you define AI?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm feeling family obligation pressure",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you clarify the instructions?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm reviewing documentation",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm losing everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is putting me in danger",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel overwhelmed by sadness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel completely broken inside",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I organize my schedule?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of my impulses",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being controlled by someone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried about finishing on time",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like a burden to others",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm feeling the strain of responsibilities",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm exhausted from juggling responsibilities",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I fix my computer?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having thoughts I'm ashamed to admit",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm being crushed by sadness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do cultures celebrate holidays?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is becoming aggressive",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How many calories in an apple?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is following me and I'm scared",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is a balanced diet?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm losing hope",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to end my life this week",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I want to take my own life",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Someone is making threats against me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed by life's pace",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being harassed at work",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having constant anxiety attacks",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is technology's impact on society?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the capacity?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How does GPS work?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "My schedule is completely packed",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't cope with life anymore",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are course requirements?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might not be able to stop the thoughts",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to kill myself after this",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like I'm suffocating emotionally",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "When will results be announced?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I could lose control and do something",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to cut myself deeply",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm overwhelmed by project complexity",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is making credible threats",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm experiencing discrimination with threats",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning to hang myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "What version is this?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "There's violence in my home",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm gathering data for analysis",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I proceed?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel disconnected from everyone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is damaging my property",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you describe the water cycle?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking about self-injury",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "There's a dangerous person near me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where is best to study abroad?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the history of tech?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to be dead",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm scared I could do something harmful",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning to kill myself tomorrow",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm going to kill myself after I write this",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm in immediate danger",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm so tired from long hours",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I need relief",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I could hurt myself if pushed too far",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel hopeless about the future",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I optimize performance?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed by life's demands",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are the guidelines?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is escalating their aggression",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm tired of constantly rushing",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being hunted by someone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I need emergency protection",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with time pressure",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having nightmares every night",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm tired of the stress",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is planning to hurt me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are good design principles?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't feel safe walking alone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is invading my privacy aggressively",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of what they might do",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What time does the store close?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I need to update my contact info",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being harmed by someone I know",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't take being alive anymore",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't keep up with everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I can't go on like this",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is displaying weapons",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm trapped in sadness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with tech problems",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel completely overwhelmed by emotions",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are the specifications?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I could do something I can't take back",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm suffering endlessly",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to cease existing",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "How does this function?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried about acting on these feelings",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about meeting targets",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm in an abusive relationship",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm in danger and need help",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm experiencing road rage incidents",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't want to wake up tomorrow",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm so anxious all the time",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid to report what's happening",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you recommend a book?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of what comes next",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm drowning in sadness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm inquiring about availability",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being intimidated by someone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are development stages?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't see anything positive anymore",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm requesting information",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm experiencing repeated threats",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having severe emotional distress",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm trapped in a dangerous situation",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "The meeting is at 3 PM",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't survive anymore",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "What skills are needed?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm barely coping",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to kill myself this weekend",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm worried I might not ask for help in time",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried about what I might do when alone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared I might not reach out for help",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm feeling time constraint pressure",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is threatening my children",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might hurt myself if I don't get help",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like giving up on everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm running on empty",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking about hurting myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm in constant emotional pain",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with the pace",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm experiencing severe intimidation",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm ready to commit suicide",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Can you provide education statistics?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you explain the process?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm overwhelmed with deadlines",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't find a reason to keep going",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are ethical considerations?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about everything at once",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't want to be alive by tomorrow",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm afraid of violence breaking out",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stand being alive one more day",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel so ashamed of myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being threatened daily",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of being kidnapped",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried about these dangerous thoughts",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have a plan to commit suicide",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm stressed about home renovations",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't escape these feelings",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel isolated from the world",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you explain the difference?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm exhausted from daily grind",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I reset my password?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm struggling with coursework",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I navigate this website?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't see any hope",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might hurt myself to feel something",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like I'm losing myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared I could hurt myself if things get worse",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I've been thinking about ways to end my pain",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm so depressed everything seems pointless",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are safety precautions?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like everything is falling apart",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel so alone and lonely",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What influences economic growth?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "When was the Declaration signed?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having trouble functioning",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having constant panic",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is using force against me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't go on and I'm ending it",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm having breakdown after breakdown",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning to kill myself this week",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm going to take all these pills",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't get a moment's peace",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "The deadline is next month",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared I might give in to urges",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with admin tasks",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm drowning in depression",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having concerning thoughts",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't take this emotional suffering",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to die and escape everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm overwhelmed by financial planning",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I have the means to end my life",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel like I'm being consumed by darkness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I track my order?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to jump in front of a train",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I need population trend data",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I have no future",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I don't matter",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "These thoughts keep crossing my mind",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is endangering my children",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm tired of complications",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the tax filing process?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to learn languages",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is making violent threats",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared to be alone with someone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning to die this evening",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm ending my life soon",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I want to drown myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I can't bear these feelings much longer",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm tired of the chaos",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm anxious about making decisions",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been tempted to hurt myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel always behind schedule",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't continue living and I'm ending it",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Someone is attempting to harm me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where do I find reliable sources?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might hurt myself in a dark moment",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "What is the refund policy?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about event planning",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm too depressed to get out of bed",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like happiness is impossible",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having dark thoughts constantly",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where can I find tutorials?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm running a marathon",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is blackmailing me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of my family member",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm drowning in anxiety",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't shake this depression",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of these harmful urges",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm ready to kill myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm ready to end everything",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "How long will this take?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm putting out fires",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm being targeted for attack",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I want to kill myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "How do I register?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm tired of the grind",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Sometimes I think about ending things",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared these thoughts will win",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm so anxious I can't leave the house",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the meaning of this word?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm in unbearable pain",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where can I learn programming?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of where my mind is taking me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to end it all soon",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I want to harm myself severely",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm experiencing domestic terror",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Please send the report by Friday",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been having intrusive thoughts about self-harm",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking about self-harm more frequently",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking about ways to escape pain",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might hurt myself to escape",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Someone is stalking me online",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "There's gang activity near me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do airplanes fly?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm exhausted from lack of sleep",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning my suicide",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm having difficulty balancing priorities",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm frustrated with my workload",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you provide examples?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stop feeling this way",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm having thoughts that scare me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I could do something to myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to do something harmful to myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm experiencing workplace violence",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm problem-solving constantly",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't want to live anymore",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel trapped in darkness",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to end my life tonight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm feeling performance pressure",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't see a future for me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are the terms?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is included?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What are the pros and cons?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm completely lost",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm conducting a research survey",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm ready to end my life tonight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm overwhelmed by all the planning",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where can I find research papers?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm exhausted from interruptions",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Someone is making me feel unsafe",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of retaliation for speaking",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might lose the battle with these thoughts",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the population of NYC?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I could hurt myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm in an unsafe living situation",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is the weather like today?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried about meeting expectations",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stop feeling sad",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared these thoughts will overwhelm me",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to commit suicide this week",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I've been thinking about self-destructive actions",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I need to escape from someone",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm checking the status",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm scared of these intrusive thoughts about harm",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm stressed about money and bills",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I've been thinking about self-harm lately",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I might hurt myself someday",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Where is the nearest coffee shop?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm planning to die by suicide",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Demands keep piling up",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm at my breaking point",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm going to harm myself until I die",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm going to take my life tonight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I want to die by my own hand",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm going to overdose tonight",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I want to poison myself",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "Can you describe the features?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "What is machine learning?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm exhausted from overtime work",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid of what might happen if I'm alone too long",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like I'm in a black hole",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel like a failure",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I feel helpless to change my situation",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm gathering presentation info",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't want to survive this",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm ready to take my own life",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I feel burned out from meetings",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Where can I download this?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you explain the scientific method?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "How do I access the database?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm worried I might act on these urges",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm afraid I might make a terrible choice",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 1,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "Can you recommend resources?",
+    "labels": {
+      "neutral": 1,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I don't want to be alive tomorrow",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm going to kill myself when everyone leaves",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 1
+    }
+  },
+  {
+    "text": "I'm paralyzed by anxiety",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I can't stop the pain inside",
+    "labels": {
+      "neutral": 0,
+      "stress": 0,
+      "unsafe_environment": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  },
+  {
+    "text": "I'm exhausted from mental load",
+    "labels": {
+      "neutral": 0,
+      "stress": 1,
+      "unsafe_environment": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0
+    }
+  }
+]

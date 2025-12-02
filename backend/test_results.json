@@ -1,0 +1,74 @@
+[
+  {
+    "text": "I'm feeling happy and excited about my new job!",
+    "expected": "positive",
+    "actual": "positive",
+    "correct": true
+  },
+  {
+    "text": "I love my life and feel grateful for everything!",
+    "expected": "positive",
+    "actual": "positive",
+    "correct": true
+  },
+  {
+    "text": "Today is an amazing day!",
+    "expected": "positive",
+    "actual": "positive",
+    "correct": true
+  },
+  {
+    "text": "Today was a normal day, nothing special happened.",
+    "expected": "conversational",
+    "actual": "conversational",
+    "correct": true
+  },
+  {
+    "text": "I went to the store and bought groceries.",
+    "expected": "neutral",
+    "actual": "conversational",
+    "correct": false
+  },
+  {
+    "text": "I'm worried about my exam tomorrow.",
+    "expected": "stress",
+    "actual": "stress",
+    "correct": true
+  },
+  {
+    "text": "Work has been really busy lately.",
+    "expected": "stress",
+    "actual": "stress",
+    "correct": true
+  },
+  {
+    "text": "I feel so overwhelmed and sad all the time.",
+    "expected": "emotional_distress",
+    "actual": "emotional_distress",
+    "correct": true
+  },
+  {
+    "text": "Everything feels meaningless.",
+    "expected": "emotional_distress",
+    "actual": "emotional_distress",
+    "correct": true
+  },
+  {
+    "text": "I want to hurt myself and end my pain",
+    "expected": "self_harm_high",
+    "actual": "self_harm_high",
+    "correct": true
+  },
+  {
+    "text": "I've been thinking about ending it all",
+    "expected": "self_harm_high",
+    "actual": "self_harm_low",
+    "correct": false
+  },
+  {
+    "text": "I don't want to live anymore",
+    "expected": "self_harm_high",
+    "actual": "self_harm_high",
+    "correct": true
+  }
+]

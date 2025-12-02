@@ -1,0 +1,375 @@
+[
+  {
+    "text": "I really enjoyed this movie, it was fantastic!",
+    "predictions": [],
+    "all_scores": {
+      "toxic": 0.06920698518188687,
+      "severe_toxic": 0.034209306338054135,
+      "obscene": 0.07773114214975366,
+      "threat": 0.011036120128944027,
+      "insult": 0.05495465948224093,
+      "identity_hate": 0.03285940439897006
+    },
+    "timestamp": "2025-11-18T16:40:23.829301"
+  },
+  {
+    "text": "Thank you for your help, I appreciate it.",
+    "predictions": [],
+    "all_scores": {
+      "toxic": 0.10276709846966645,
+      "severe_toxic": 0.026088376625003865,
+      "obscene": 0.043149773807740585,
+      "threat": 0.01903561569898416,
+      "insult": 0.029532462267052254,
+      "identity_hate": 0.03050064162724335
+    },
+    "timestamp": "2025-11-18T16:40:23.829322"
+  },
+  {
+    "text": "The weather is beautiful today.",
+    "predictions": [],
+    "all_scores": {
+      "toxic": 0.12012476812857702,
+      "severe_toxic": 0.03281639644555675,
+      "obscene": 0.0664965707499929,
+      "threat": 0.013412390910391751,
+      "insult": 0.027991010544246027,
+      "identity_hate": 0.013011804112711405
+    },
+    "timestamp": "2025-11-18T16:40:23.829325"
+  },
+  {
+    "text": "Great job on the presentation!",
+    "predictions": [],
+    "all_scores": {
+      "toxic": 0.10795293187608727,
+      "severe_toxic": 0.013939537148644533,
+      "obscene": 0.03126766635769577,
+      "threat": 0.010384000854015378,
+      "insult": 0.03701183153400844,
+      "identity_hate": 0.027430224960495644
+    },
+    "timestamp": "2025-11-18T16:40:23.829327"
+  },
+  {
+    "text": "Looking forward to our meeting tomorrow.",
+    "predictions": [],
+    "all_scores": {
+      "toxic": 0.05694572377762232,
+      "severe_toxic": 0.029268687865268726,
+      "obscene": 0.06706118395302063,
+      "threat": 0.024107493083028987,
+      "insult": 0.07368021594486943,
+      "identity_hate": 0.017947099634538922
+    },
+    "timestamp": "2025-11-18T16:40:23.829328"
+  },
+  {
+    "text": "This is the worst product I've ever bought.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.5553068608816942
+      },
+      {
+        "label": "insult",
+        "confidence": 0.5955046545547132
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.5553068608816942,
+      "severe_toxic": 0.07345122363716267,
+      "obscene": 0.18140147196384201,
+      "threat": 0.1143030412451324,
+      "insult": 0.5955046545547132,
+      "identity_hate": 0.07823841457717148
+    },
+    "timestamp": "2025-11-18T16:40:23.829331"
+  },
+  {
+    "text": "You clearly don't know what you're talking about.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.5564491423130702
+      },
+      {
+        "label": "insult",
+        "confidence": 0.517686326742348
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.5564491423130702,
+      "severe_toxic": 0.1690670029057752,
+      "obscene": 0.3587666593603718,
+      "threat": 0.06141909363012681,
+      "insult": 0.517686326742348,
+      "identity_hate": 0.08113845888513267
+    },
+    "timestamp": "2025-11-18T16:40:23.829334"
+  },
+  {
+    "text": "That's a stupid idea.",
+    "predictions": [],
+    "all_scores": {
+      "toxic": 0.48361349540068366,
+      "severe_toxic": 0.11531254486128671,
+      "obscene": 0.3205545781632708,
+      "threat": 0.062265395521674406,
+      "insult": 0.41518235717850527,
+      "identity_hate": 0.08157378098582324
+    },
+    "timestamp": "2025-11-18T16:40:23.829337"
+  },
+  {
+    "text": "Are you serious right now?",
+    "predictions": [],
+    "all_scores": {
+      "toxic": 0.4953847766354128,
+      "severe_toxic": 0.06311979963280842,
+      "obscene": 0.21248488004678456,
+      "threat": 0.13039187639254135,
+      "insult": 0.34407830469027795,
+      "identity_hate": 0.0607976062252814
+    },
+    "timestamp": "2025-11-18T16:40:23.829338"
+  },
+  {
+    "text": "You're an idiot if you believe that.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.9268309367003674
+      },
+      {
+        "label": "severe_toxic",
+        "confidence": 0.5307588851582113
+      },
+      {
+        "label": "obscene",
+        "confidence": 0.5849705707129504
+      },
+      {
+        "label": "insult",
+        "confidence": 0.7036370945964765
+      },
+      {
+        "label": "identity_hate",
+        "confidence": 0.5674622061153409
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.9268309367003674,
+      "severe_toxic": 0.5307588851582113,
+      "obscene": 0.5849705707129504,
+      "threat": 0.4398420983734763,
+      "insult": 0.7036370945964765,
+      "identity_hate": 0.5674622061153409
+    },
+    "timestamp": "2025-11-18T16:40:23.829341"
+  },
+  {
+    "text": "This is complete garbage and you should be ashamed.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.8839810214394942
+      },
+      {
+        "label": "severe_toxic",
+        "confidence": 0.6306715984118094
+      },
+      {
+        "label": "obscene",
+        "confidence": 0.7995196314491668
+      },
+      {
+        "label": "threat",
+        "confidence": 0.6992544071800885
+      },
+      {
+        "label": "insult",
+        "confidence": 0.600703648420455
+      },
+      {
+        "label": "identity_hate",
+        "confidence": 0.5096903486751928
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.8839810214394942,
+      "severe_toxic": 0.6306715984118094,
+      "obscene": 0.7995196314491668,
+      "threat": 0.6992544071800885,
+      "insult": 0.600703648420455,
+      "identity_hate": 0.5096903486751928
+    },
+    "timestamp": "2025-11-18T16:40:23.829344"
+  },
+  {
+    "text": "Shut up and leave me alone.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.797182460183207
+      },
+      {
+        "label": "severe_toxic",
+        "confidence": 0.5434695508081686
+      },
+      {
+        "label": "obscene",
+        "confidence": 0.7775821581899502
+      },
+      {
+        "label": "threat",
+        "confidence": 0.576723127986499
+      },
+      {
+        "label": "insult",
+        "confidence": 0.7115957363283365
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.797182460183207,
+      "severe_toxic": 0.5434695508081686,
+      "obscene": 0.7775821581899502,
+      "threat": 0.576723127986499,
+      "insult": 0.7115957363283365,
+      "identity_hate": 0.37144029909516274
+    },
+    "timestamp": "2025-11-18T16:40:23.829347"
+  },
+  {
+    "text": "Nobody cares about your opinion.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.798579169495035
+      },
+      {
+        "label": "severe_toxic",
+        "confidence": 0.6212545024713543
+      },
+      {
+        "label": "obscene",
+        "confidence": 0.796904697079955
+      },
+      {
+        "label": "insult",
+        "confidence": 0.6625108151943677
+      },
+      {
+        "label": "identity_hate",
+        "confidence": 0.5039558993743973
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.798579169495035,
+      "severe_toxic": 0.6212545024713543,
+      "obscene": 0.796904697079955,
+      "threat": 0.4123245228591223,
+      "insult": 0.6625108151943677,
+      "identity_hate": 0.5039558993743973
+    },
+    "timestamp": "2025-11-18T16:40:23.829349"
+  },
+  {
+    "text": "Go kill yourself.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.8309097002419367
+      },
+      {
+        "label": "severe_toxic",
+        "confidence": 0.7245021957990514
+      },
+      {
+        "label": "obscene",
+        "confidence": 0.6723037855372399
+      },
+      {
+        "label": "threat",
+        "confidence": 0.6546544177333136
+      },
+      {
+        "label": "insult",
+        "confidence": 0.7454347240364834
+      },
+      {
+        "label": "identity_hate",
+        "confidence": 0.6376597647623733
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.8309097002419367,
+      "severe_toxic": 0.7245021957990514,
+      "obscene": 0.6723037855372399,
+      "threat": 0.6546544177333136,
+      "insult": 0.7454347240364834,
+      "identity_hate": 0.6376597647623733
+    },
+    "timestamp": "2025-11-18T16:40:23.829350"
+  },
+  {
+    "text": "I hate you and everyone like you.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.7912138065229124
+      },
+      {
+        "label": "obscene",
+        "confidence": 0.5615103269203975
+      },
+      {
+        "label": "threat",
+        "confidence": 0.6354246732993134
+      },
+      {
+        "label": "insult",
+        "confidence": 0.8484352595017768
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.7912138065229124,
+      "severe_toxic": 0.41974774907945656,
+      "obscene": 0.5615103269203975,
+      "threat": 0.6354246732993134,
+      "insult": 0.8484352595017768,
+      "identity_hate": 0.4998149169087164
+    },
+    "timestamp": "2025-11-18T16:40:23.829352"
+  },
+  {
+    "text": "You deserve to suffer.",
+    "predictions": [
+      {
+        "label": "toxic",
+        "confidence": 0.7991729340128333
+      },
+      {
+        "label": "obscene",
+        "confidence": 0.8060065515521058
+      },
+      {
+        "label": "insult",
+        "confidence": 0.7034815158156885
+      },
+      {
+        "label": "identity_hate",
+        "confidence": 0.5053740756150015
+      }
+    ],
+    "all_scores": {
+      "toxic": 0.7991729340128333,
+      "severe_toxic": 0.4384769299412425,
+      "obscene": 0.8060065515521058,
+      "threat": 0.3503371456849963,
+      "insult": 0.7034815158156885,
+      "identity_hate": 0.5053740756150015
+    },
+    "timestamp": "2025-11-18T16:40:23.829354"
+  }
+]

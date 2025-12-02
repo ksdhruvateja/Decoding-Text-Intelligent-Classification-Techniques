@@ -1,0 +1,173 @@
+[
+  {
+    "category": "Ambiguous self-harm ideation",
+    "text": "I'm not saying I want to hurt myself, but sometimes I wonder if anyone would notice if I was gone.",
+    "expected": "emotional_distress or self_harm_low",
+    "got_emotion": "self_harm_low",
+    "got_sentiment": "concerning",
+    "got_predictions": [
+      "self_harm_low"
+    ],
+    "correct": true
+  },
+  {
+    "category": "Hidden distress",
+    "text": "Everything is fine, really. I'm just tired of pretending everything is fine when it's clearly not.",
+    "expected": "emotional_distress or stress",
+    "got_emotion": "stress",
+    "got_sentiment": "concerning",
+    "got_predictions": [
+      "stress"
+    ],
+    "correct": true
+  },
+  {
+    "category": "Sarcasm",
+    "text": "Oh great, another perfect day in paradise. Just what I needed.",
+    "expected": "stress or emotional_distress",
+    "got_emotion": "stress",
+    "got_sentiment": "concerning",
+    "got_predictions": [
+      "stress"
+    ],
+    "correct": true
+  },
+  {
+    "category": "Irony",
+    "text": "I'm so happy I could just die. This is the best day ever.",
+    "expected": "stress or emotional_distress",
+    "got_emotion": "stress",
+    "got_sentiment": "concerning",
+    "got_predictions": [],
+    "correct": true
+  },
+  {
+    "category": "Long complex sentence",
+    "text": "I've been thinking a lot lately about how life seems to be getting harder and harder, and even though I try to stay positive and tell myself things will get better, there are moments when I feel completely overwhelmed and wonder if I'm strong enough to handle everything that's coming my way.",
+    "expected": "emotional_distress or stress",
+    "got_emotion": "neutral",
+    "got_sentiment": "safe",
+    "got_predictions": [
+      "neutral"
+    ],
+    "correct": false
+  },
+  {
+    "category": "Mixed emotions",
+    "text": "I'm excited about the new job but also terrified because I don't know if I'm good enough and I'm worried I'll fail and disappoint everyone.",
+    "expected": "stress or emotional_distress",
+    "got_emotion": "positive",
+    "got_sentiment": "safe",
+    "got_predictions": [
+      "positive"
+    ],
+    "correct": false
+  },
+  {
+    "category": "Context-dependent distress",
+    "text": "I can't take this anymore. I really can't.",
+    "expected": "emotional_distress or stress",
+    "got_emotion": "self_harm_high",
+    "got_sentiment": "high_risk",
+    "got_predictions": [
+      "self_harm_high"
+    ],
+    "correct": false
+  },
+  {
+    "category": "Subtle self-harm ideation",
+    "text": "I've been having thoughts that maybe I'm not meant to be here, you know? Like maybe the world would be better off.",
+    "expected": "self_harm_low or emotional_distress",
+    "got_emotion": "self_harm_low",
+    "got_sentiment": "concerning",
+    "got_predictions": [
+      "self_harm_low"
+    ],
+    "correct": true
+  },
+  {
+    "category": "Complex positive",
+    "text": "Despite all the challenges I've faced this year, I'm grateful for the lessons learned and the strength I've discovered within myself.",
+    "expected": "neutral or positive",
+    "got_emotion": "positive",
+    "got_sentiment": "safe",
+    "got_predictions": [
+      "positive"
+    ],
+    "correct": true
+  },
+  {
+    "category": "Constructive negative",
+    "text": "The project didn't go as planned, and I'm disappointed, but I'll learn from this experience and do better next time.",
+    "expected": "stress or neutral",
+    "got_emotion": "positive",
+    "got_sentiment": "safe",
+    "got_predictions": [],
+    "correct": []
+  },
+  {
+    "category": "Threat to others",
+    "text": "If they don't stop bothering me, I'm going to make them regret it. I know exactly what I'll do.",
+    "expected": "unsafe_environment",
+    "got_emotion": "stress",
+    "got_sentiment": "concerning",
+    "got_predictions": [],
+    "correct": []
+  },
+  {
+    "category": "Self-harm plan",
+    "text": "I've been planning how I would do it. I have everything I need. Tonight might be the night.",
+    "expected": "self_harm_high",
+    "got_emotion": "self_harm_high",
+    "got_sentiment": "high_risk",
+    "got_predictions": [
+      "self_harm_high"
+    ],
+    "correct": true
+  },
+  {
+    "category": "Metaphorical distress",
+    "text": "I feel like I'm drowning in responsibilities and there's no one to throw me a lifeline.",
+    "expected": "emotional_distress or stress",
+    "got_emotion": "neutral",
+    "got_sentiment": "safe",
+    "got_predictions": [
+      "neutral"
+    ],
+    "correct": false
+  },
+  {
+    "category": "Rhetorical questions showing distress",
+    "text": "What's the point of trying when nothing ever works out? Why do I even bother?",
+    "expected": "emotional_distress or stress",
+    "got_emotion": "self_harm_high",
+    "got_sentiment": "high_risk",
+    "got_predictions": [
+      "self_harm_high",
+      "neutral"
+    ],
+    "correct": false
+  },
+  {
+    "category": "Past tense recovery",
+    "text": "I used to think about hurting myself, but I'm in a much better place now and have support.",
+    "expected": "neutral or positive",
+    "got_emotion": "self_harm_high",
+    "got_sentiment": "high_risk",
+    "got_predictions": [
+      "self_harm_high"
+    ],
+    "correct": false
+  },
+  {
+    "category": "Multiple clauses showing internal conflict",
+    "text": "I know I should be happy because I have everything I need, but I can't shake this feeling of emptiness, and even though I try to focus on the positive, the negative thoughts keep creeping in.",
+    "expected": "emotional_distress",
+    "got_emotion": "neutral",
+    "got_sentiment": "safe",
+    "got_predictions": [
+      "neutral"
+    ],
+    "correct": false
+  }
+]

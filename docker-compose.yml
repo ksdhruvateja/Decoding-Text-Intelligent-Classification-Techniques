@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: text-classifier-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MODEL_PATH=checkpoints/best_model.pt
+    volumes:
+      - ./backend/checkpoints:/app/checkpoints
+      - ./backend/data:/app/data
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: text-classifier-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000/api
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  model-checkpoints:
+  training-data:
