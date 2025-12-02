@@ -174,10 +174,6 @@ REACT_APP_API_URL=/api
 - **Deployment**: Netlify (Frontend), Render/Railway (Backend)
 - **Version Control**: Git, GitHub
 
-## 📝 License
-
-MIT License
-
 ## 🤝 Contributing
 
 1. Fork the repository
