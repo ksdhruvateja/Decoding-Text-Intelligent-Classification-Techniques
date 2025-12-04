@@ -1,51 +1,85 @@
 const fetch = require('node-fetch');
 
+const CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Content-Type': 'application/json'
+};
+
 exports.handler = async (event, context) => {
+  // Handle CORS preflight
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 200,
+      headers: CORS_HEADERS,
+      body: ''
+    };
+  }
+
   // Only allow POST
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 405,
+      headers: CORS_HEADERS,
       body: JSON.stringify({ error: 'Method not allowed' })
     };
   }
 
   try {
-    const { text } = JSON.parse(event.body);
+    const { text, threshold } = JSON.parse(event.body);
 
     if (!text) {
       return {
         statusCode: 400,
+        headers: CORS_HEADERS,
         body: JSON.stringify({ error: 'Text is required' })
       };
     }
 
-    // For Netlify deployment, you'll need to deploy your Python backend separately
-    // (e.g., on Render, Railway, or Heroku) and update this URL
-    const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:5000';
+    // Backend URL should be set in Netlify environment variables
+    // Go to: Site settings → Environment variables → Add variable
+    // Name: BACKEND_URL, Value: https://your-backend-url.com
+    const BACKEND_URL = process.env.BACKEND_URL;
     
-    const response = await fetch(`${BACKEND_URL}/classify`, {
+    if (!BACKEND_URL) {
+      return {
+        statusCode: 503,
+        headers: CORS_HEADERS,
+        body: JSON.stringify({ 
+          error: 'Backend not configured',
+          message: 'Please set BACKEND_URL environment variable in Netlify dashboard'
+        })
+      };
+    }
+
+    console.log(`Calling backend at: ${BACKEND_URL}/api/classify`);
+    
+    const response = await fetch(`${BACKEND_URL}/api/classify`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ text }),
+      body: JSON.stringify({ text, threshold: threshold || 0.5 }),
+      timeout: 30000 // 30 second timeout
     });
+
+    if (!response.ok) {
+      throw new Error(`Backend returned ${response.status}: ${response.statusText}`);
+    }
 
     const data = await response.json();
 
     return {
       statusCode: 200,
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-        'Access-Control-Allow-Headers': 'Content-Type',
-      },
+      headers: CORS_HEADERS,
       body: JSON.stringify(data)
     };
   } catch (error) {
     console.error('Classification error:', error);
     return {
       statusCode: 500,
+      headers: CORS_HEADERS,
       body: JSON.stringify({ 
         error: 'Failed to classify text',
         details: error.message 

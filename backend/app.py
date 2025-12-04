@@ -16,6 +16,9 @@ conversation_logs = []
 def initialize_classifier():
     """Initialize the Multi-Stage classifier or fallback to rule-based"""
     global classifier_service
+    if classifier_service is not None:
+        return  # Already initialized
+    
     # Use the new MultiStageClassifier as the main classifier
     try:
         from multistage_classifier import initialize_multistage_classifier
@@ -29,13 +32,21 @@ def initialize_classifier():
             return
     except Exception as e:
         print(f"[SYSTEM] Could not load Multi-Stage Classifier: {e}")
-        # Fallback to rule-based classifier if needed
+    
+    # Fallback to rule-based classifier if needed
+    try:
         from rule_classifier import rule_based_classifier
         classifier_service = rule_based_classifier
         print("="*60)
         print("[SYSTEM] Rule-based classifier initialized (fallback mode)")
         print("[SYSTEM] Train BERT model for higher accuracy")
         print("="*60)
+    except Exception as e:
+        print(f"[SYSTEM] Could not load rule-based classifier: {e}")
+        classifier_service = None
+
+# Initialize classifier when module loads (for Gunicorn)
+initialize_classifier()
 
 
 @application.route('/api/health', methods=['GET'])
