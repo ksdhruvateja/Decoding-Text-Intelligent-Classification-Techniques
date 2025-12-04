@@ -196,10 +196,13 @@ def internal_error_handler(error):
 
 
 if __name__ == '__main__':
-    initialize_classifier()
     port_number = int(os.environ.get('PORT', 5000))
+    print(f"\n🚀 Starting Flask server on http://localhost:{port_number}")
+    print(f"📊 Classifier: {'Multi-Stage' if 'multistage' in str(type(classifier_service)).lower() else 'Rule-based'}")
+    print(f"✅ Ready to classify text!\n")
     application.run(
         host='0.0.0.0',
         port=port_number,
-        debug=True
+        debug=False,
+        use_reloader=False
     )
