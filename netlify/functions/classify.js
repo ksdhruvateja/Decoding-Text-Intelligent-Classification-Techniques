@@ -1,3 +1,30 @@
+// Simple rule-based fallback classifier for when backend is not available
+function fallbackClassify(text) {
+  const lowerText = text.toLowerCase();
+  const predictions = [];
+  
+  // Simple keyword-based classification
+  const toxicKeywords = ['hate', 'stupid', 'idiot', 'dumb', 'kill', 'die', 'worthless'];
+  const threatKeywords = ['kill', 'hurt', 'attack', 'destroy', 'bomb'];
+  const insultKeywords = ['stupid', 'idiot', 'moron', 'fool', 'dummy', 'loser'];
+  
+  let hasToxic = toxicKeywords.some(word => lowerText.includes(word));
+  let hasThreat = threatKeywords.some(word => lowerText.includes(word));
+  let hasInsult = insultKeywords.some(word => lowerText.includes(word));
+  
+  if (hasToxic) predictions.push({ label: 'toxic', confidence: 0.7 });
+  if (hasThreat) predictions.push({ label: 'threat', confidence: 0.75 });
+  if (hasInsult) predictions.push({ label: 'insult', confidence: 0.65 });
+  
+  return {
+    text: text,
+    predictions: predictions.length > 0 ? predictions : [{ label: 'safe', confidence: 0.9 }],
+    model_used: 'fallback_rule_based',
+    timestamp: new Date().toISOString(),
+    note: 'Backend not configured - using simple rule-based classification. Deploy backend and set BACKEND_URL for ML-based results.'
+  };
+}
+
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'Content-Type',
@@ -35,44 +62,61 @@ exports.handler = async (event, context) => {
       };
     }
 
-    // Backend URL should be set in Netlify environment variables
-    // Go to: Site settings → Environment variables → Add variable
-    // Name: BACKEND_URL, Value: https://your-backend-url.com
     const BACKEND_URL = process.env.BACKEND_URL;
     
+    // If backend is not configured, use fallback classifier
     if (!BACKEND_URL) {
+      console.log('BACKEND_URL not set - using fallback classifier');
+      const result = fallbackClassify(text);
       return {
-        statusCode: 503,
+        statusCode: 200,
         headers: CORS_HEADERS,
-        body: JSON.stringify({ 
-          error: 'Backend not configured',
-          message: 'Please set BACKEND_URL environment variable in Netlify dashboard'
-        })
+        body: JSON.stringify(result)
       };
     }
 
+    // Try to use the backend
     console.log(`Calling backend at: ${BACKEND_URL}/api/classify`);
     
-    const response = await fetch(`${BACKEND_URL}/api/classify`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ text, threshold: threshold || 0.5 })
-    });
+    try {
+      const response = await fetch(`${BACKEND_URL}/api/classify`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text, threshold: threshold || 0.5 })
+      });
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`Backend returned ${response.status}: ${errorText}`);
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error(`Backend error: ${response.status} - ${errorText}`);
+        // Fallback to rule-based if backend fails
+        const result = fallbackClassify(text);
+        result.note = `Backend unreachable (${response.status}) - using fallback classifier. Deploy backend for ML results.`;
+        return {
+          statusCode: 200,
+          headers: CORS_HEADERS,
+          body: JSON.stringify(result)
+        };
+      }
+
+      const data = await response.json();
+      return {
+        statusCode: 200,
+        headers: CORS_HEADERS,
+        body: JSON.stringify(data)
+      };
+    } catch (backendError) {
+      console.error('Backend fetch error:', backendError.message);
+      // Fallback to rule-based if backend is unreachable
+      const result = fallbackClassify(text);
+      result.note = `Backend unreachable - using fallback classifier. Deploy backend for ML results.`;
+      return {
+        statusCode: 200,
+        headers: CORS_HEADERS,
+        body: JSON.stringify(result)
+      };
     }
-
-    const data = await response.json();
-
-    return {
-      statusCode: 200,
-      headers: CORS_HEADERS,
-      body: JSON.stringify(data)
-    };
   } catch (error) {
     console.error('Classification error:', error);
     return {
