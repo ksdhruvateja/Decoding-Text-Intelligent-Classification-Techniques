@@ -26,13 +26,18 @@ exports.handler = async (event, context) => {
   try {
     const BACKEND_URL = process.env.BACKEND_URL;
     
+    // Provide default categories if backend not configured
+    const defaultCategories = ['toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate'];
+    
     if (!BACKEND_URL) {
+      console.log('BACKEND_URL not configured - returning default categories');
       return {
-        statusCode: 503,
+        statusCode: 200,
         headers: CORS_HEADERS,
         body: JSON.stringify({ 
-          error: 'Backend not configured',
-          categories: []
+          categories: defaultCategories,
+          count: defaultCategories.length,
+          source: 'default'
         })
       };
     }
@@ -50,12 +55,16 @@ exports.handler = async (event, context) => {
     };
   } catch (error) {
     console.error('Categories fetch error:', error);
+    // Return default categories on error
+    const defaultCategories = ['toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate'];
     return {
-      statusCode: 500,
+      statusCode: 200,
       headers: CORS_HEADERS,
       body: JSON.stringify({ 
-        error: 'Failed to fetch categories',
-        categories: []
+        categories: defaultCategories,
+        count: defaultCategories.length,
+        source: 'fallback',
+        note: 'Backend unreachable - using default categories'
       })
     };
   }

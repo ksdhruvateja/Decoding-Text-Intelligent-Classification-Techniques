@@ -52,15 +52,44 @@ exports.handler = async (event, context) => {
   }
 
   try {
-    const { text, threshold } = JSON.parse(event.body);
+    // Log incoming request for debugging
+    console.log('Received request:', { 
+      method: event.httpMethod, 
+      bodyLength: event.body?.length,
+      hasBody: !!event.body 
+    });
 
-    if (!text) {
+    if (!event.body) {
       return {
         statusCode: 400,
         headers: CORS_HEADERS,
-        body: JSON.stringify({ error: 'Text is required' })
+        body: JSON.stringify({ error: 'Request body is empty' })
       };
     }
+
+    let parsedBody;
+    try {
+      parsedBody = JSON.parse(event.body);
+    } catch (parseError) {
+      console.error('JSON parse error:', parseError);
+      return {
+        statusCode: 400,
+        headers: CORS_HEADERS,
+        body: JSON.stringify({ error: 'Invalid JSON in request body' })
+      };
+    }
+
+    const { text, threshold } = parsedBody;
+
+    if (!text || typeof text !== 'string' || text.trim() === '') {
+      return {
+        statusCode: 400,
+        headers: CORS_HEADERS,
+        body: JSON.stringify({ error: 'Text is required and must be a non-empty string' })
+      };
+    }
+
+    console.log('Processing text classification for:', text.substring(0, 50) + '...');
 
     const BACKEND_URL = process.env.BACKEND_URL;
     
@@ -118,13 +147,19 @@ exports.handler = async (event, context) => {
       };
     }
   } catch (error) {
-    console.error('Classification error:', error);
+    console.error('Unexpected classification error:', error);
+    console.error('Error stack:', error.stack);
+    
+    // Return a fallback response even on error to keep the app working
     return {
-      statusCode: 500,
+      statusCode: 200,
       headers: CORS_HEADERS,
       body: JSON.stringify({ 
-        error: 'Failed to classify text',
-        details: error.message 
+        text: 'Error occurred',
+        predictions: [{ label: 'error', confidence: 0.0 }],
+        error: true,
+        error_message: error.message,
+        note: 'An unexpected error occurred. Using fallback response.'
       })
     };
   }

@@ -18,12 +18,14 @@ exports.handler = async (event, context) => {
   const BACKEND_URL = process.env.BACKEND_URL;
   
   if (!BACKEND_URL) {
+    console.log('BACKEND_URL not configured - returning empty history');
     return {
-      statusCode: 503,
+      statusCode: 200,
       headers: CORS_HEADERS,
       body: JSON.stringify({ 
-        error: 'Backend not configured',
-        history: []
+        history: [],
+        total: 0,
+        message: 'Backend not configured - history not available'
       })
     };
   }
@@ -63,12 +65,14 @@ exports.handler = async (event, context) => {
     }
   } catch (error) {
     console.error('History operation error:', error);
+    // Return empty history on error
     return {
-      statusCode: 500,
+      statusCode: 200,
       headers: CORS_HEADERS,
       body: JSON.stringify({ 
-        error: 'Failed to process history request',
-        details: error.message
+        history: [],
+        total: 0,
+        note: 'Backend unreachable - history not available'
       })
     };
   }

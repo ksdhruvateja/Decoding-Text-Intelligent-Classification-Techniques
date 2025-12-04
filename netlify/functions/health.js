@@ -24,19 +24,24 @@ exports.handler = async (event, context) => {
   }
 
   try {
+    console.log('Health check called');
     const BACKEND_URL = process.env.BACKEND_URL;
     
     if (!BACKEND_URL) {
+      console.log('BACKEND_URL not configured');
       return {
         statusCode: 200,
         headers: CORS_HEADERS,
         body: JSON.stringify({ 
           status: 'frontend_healthy',
           backend_configured: false,
-          message: 'Backend URL not configured. Set BACKEND_URL environment variable in Netlify.'
+          message: 'Backend URL not configured. Set BACKEND_URL environment variable in Netlify.',
+          timestamp: new Date().toISOString()
         })
       };
     }
+
+    console.log('Checking backend at:', BACKEND_URL);
 
     const response = await fetch(`${BACKEND_URL}/api/health`, {
       method: 'GET'
@@ -54,13 +59,15 @@ exports.handler = async (event, context) => {
       })
     };
   } catch (error) {
+    console.error('Health check error:', error);
     return {
       statusCode: 200,
       headers: CORS_HEADERS,
       body: JSON.stringify({
         frontend_status: 'healthy',
         backend_status: 'unreachable',
-        error: error.message
+        error: error.message,
+        timestamp: new Date().toISOString()
       })
     };
   }
