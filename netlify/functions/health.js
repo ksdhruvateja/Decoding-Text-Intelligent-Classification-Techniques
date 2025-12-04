@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'Content-Type',
@@ -41,8 +39,7 @@ exports.handler = async (event, context) => {
     }
 
     const response = await fetch(`${BACKEND_URL}/api/health`, {
-      method: 'GET',
-      timeout: 10000
+      method: 'GET'
     });
 
     const data = await response.json();

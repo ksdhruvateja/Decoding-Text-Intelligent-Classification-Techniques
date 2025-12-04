@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'Content-Type',
@@ -34,8 +32,7 @@ exports.handler = async (event, context) => {
     if (event.httpMethod === 'GET') {
       const limit = event.queryStringParameters?.limit || '50';
       const response = await fetch(`${BACKEND_URL}/api/history?limit=${limit}`, {
-        method: 'GET',
-        timeout: 10000
+        method: 'GET'
       });
 
       const data = await response.json();
@@ -47,8 +44,7 @@ exports.handler = async (event, context) => {
       };
     } else if (event.httpMethod === 'DELETE') {
       const response = await fetch(`${BACKEND_URL}/api/history/clear`, {
-        method: 'DELETE',
-        timeout: 10000
+        method: 'DELETE'
       });
 
       const data = await response.json();

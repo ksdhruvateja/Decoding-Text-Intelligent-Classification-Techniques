@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Headers': 'Content-Type',
@@ -60,12 +58,12 @@ exports.handler = async (event, context) => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ text, threshold: threshold || 0.5 }),
-      timeout: 30000 // 30 second timeout
+      body: JSON.stringify({ text, threshold: threshold || 0.5 })
     });
 
     if (!response.ok) {
-      throw new Error(`Backend returned ${response.status}: ${response.statusText}`);
+      const errorText = await response.text();
+      throw new Error(`Backend returned ${response.status}: ${errorText}`);
     }
 
     const data = await response.json();

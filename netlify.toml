@@ -48,7 +48,3 @@
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
-  
-# Set function timeout (max 10s on free tier, 26s on pro)
-[functions."*"]
-  timeout = 26
