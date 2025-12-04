@@ -10,7 +10,7 @@ A sophisticated **Multi-Stage Mental Health Text Classifier** that combines BERT
 - **Rule-Based Overrides**: Catches edge cases and ensures safety
 - **React Frontend**: Beautiful, modern UI for text classification
 - **Flask Backend**: RESTful API with comprehensive endpoints
-- **Netlify Ready**: Fully configured for Netlify deployment
+- **Local Development**: Run locally with Flask backend and React frontend
 
 ## 🏗️ Architecture
 
@@ -31,14 +31,16 @@ See [MODEL_ARCHITECTURE_DOCUMENTATION.md](./MODEL_ARCHITECTURE_DOCUMENTATION.md)
 │   ├── app.py            # Flask application
 │   ├── multistage_classifier.py  # Main classifier
 │   ├── bert_classifier.py        # BERT model
+│   ├── rule_classifier.py        # Rule-based fallback
+│   ├── requirements.txt   # Python dependencies
 │   └── checkpoints/       # Trained models
 ├── frontend/             # React frontend
 │   ├── src/
+│   │   ├── App.js        # Main React component
+│   │   └── App.css       # Styling
 │   └── package.json
-├── netlify/              # Netlify serverless functions
-│   └── functions/
-│       └── classify.js   # API proxy
-├── netlify.toml          # Netlify configuration
+├── api/                  # API serverless functions
+│   └── index.py          # Python API handler
 └── README.md
 ```
 
@@ -64,18 +66,23 @@ Backend runs on `http://localhost:5000`
 cd frontend
 npm install
 npm start
-```
-
 Frontend runs on `http://localhost:3000`
 
-### Netlify Deployment
+### Full Stack Local Setup
 
-See [NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md) for complete deployment guide.
+```bash
+# Terminal 1 - Backend
+cd backend
+pip install -r requirements.txt
+python app.py
 
-**Quick Deploy**:
-1. Deploy backend to Render/Railway (see guide)
-2. Push code to GitHub
-3. Import project in Netlify
+# Terminal 2 - Frontend
+cd frontend
+npm install
+npm start
+```
+
+Visit `http://localhost:3000` to use the app!project in Netlify
 4. Set `BACKEND_URL` environment variable
 5. Deploy!
 
@@ -154,20 +161,20 @@ See [QUICK_FIX_TRAINING.md](./backend/QUICK_FIX_TRAINING.md) for details.
 REACT_APP_API_URL=http://localhost:5000/api
 ```
 
-**Production** (`frontend/.env.production`):
-```
-REACT_APP_API_URL=/api
-```
-
 ## 📚 Documentation
 
 - **[MODEL_ARCHITECTURE_DOCUMENTATION.md](./MODEL_ARCHITECTURE_DOCUMENTATION.md)** - Complete architecture guide
 - **[FILE_STRUCTURE_VISUAL.md](./FILE_STRUCTURE_VISUAL.md)** - File structure visualization
-- **[NETLIFY_DEPLOYMENT.md](./NETLIFY_DEPLOYMENT.md)** - Netlify deployment guide
-- **[backend/QUICK_FIX_TRAINING.md](./backend/QUICK_FIX_TRAINING.md)** - Training guide
+- **[LABEL_DEFINITIONS.md](./backend/LABEL_DEFINITIONS.md)** - Classification category definitions
+- **[HOW_IT_WORKS.md](./backend/HOW_IT_WORKS.md)** - System workflow explanation
 
 ## 🛠️ Technologies
 
+- **Frontend**: React 18, Lucide Icons, CSS3
+- **Backend**: Flask, Flask-CORS, Python 3.9+
+- **ML/AI**: PyTorch, Transformers (BERT), scikit-learn
+- **Development**: Node.js, npm, pip
+- **Version Control**: Git, GitHub
 - **Frontend**: React, CSS3
 - **Backend**: Flask, Python
 - **ML**: PyTorch, Transformers (BERT)
