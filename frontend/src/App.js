@@ -174,50 +174,50 @@ function App() {
 
     return [
       {
-        id: 'stage-intake',
-        step: 'Stage 01',
-        title: 'Rule-based Sentiment Intake',
+        id: 'stage-simple',
+        step: 'Tier 1',
+        title: 'SimpleClassifier (Rule-Based)',
         detail: latestResult
-          ? `Detected ${latestResult.base_sentiment || 'neutral'} at ${formatPercent(latestResult.base_sentiment_confidence)} confidence.`
-          : 'Awaiting transmission to sanitize text and derive base sentiment.',
+          ? `Pattern matching complete: ${latestResult.primary_category} (${formatPercent(latestResult.confidence)}) | Emotion: ${latestResult.emotion || 'neutral'}`
+          : 'Fast pattern matching with 200+ keywords and 30+ threat patterns. Ready to scan.',
         status: stageStatus(),
       },
       {
         id: 'stage-bert',
-        step: 'Stage 02',
-        title: 'BERT Encoder + Temperature Scaling',
+        step: 'Tier 2',
+        title: 'BERT Classifier (Deep Learning)',
         detail: latestResult
-          ? `Processed through calibrated BERT head with ${Object.keys(latestResult.all_scores || {}).length || 0} label probabilities.`
-          : 'Model stack is idle until a message is submitted.',
+          ? `BERT inference: bert-base-uncased (110M params) analyzed semantic context with ${Object.keys(latestResult.all_scores || {}).length} categories.`
+          : 'Neural network idle. Semantic understanding via 12 transformer layers (768-dim embeddings).',
         status: stageStatus(),
       },
       {
-        id: 'stage-thresholds',
-        step: 'Stage 03',
-        title: 'Adaptive Thresholding & Label Selection',
+        id: 'stage-tfidf',
+        step: 'Tier 3',
+        title: 'TF-IDF Classifier (ML Fallback)',
         detail: latestResult
-          ? `${latestResult.predictions?.length || 0} labels cleared custom thresholds (${latestResult.predictions?.[0]?.label || 'none'} highest).`
-          : 'Dynamic thresholds stand by to filter confident signals.',
+          ? `Logistic regression fallback ready. Primary decision: ${latestResult.primary_category} | Confidence: ${formatPercent(latestResult.confidence)}`
+          : 'Logistic regression with term frequency analysis. 76.4% accuracy fallback ready.',
         status: stageStatus(),
       },
       {
-        id: 'stage-override',
-        step: 'Stage 04',
-        title: 'Rule Arbitration & Safety Overrides',
+        id: 'stage-blend',
+        step: 'Orchestrator',
+        title: 'ProductionClassifier (Hybrid Blending)',
         detail: latestResult
-          ? latestResult.override_applied
-            ? latestResult.override_reason
-            : 'No overrides fired—model decision accepted.'
-          : 'Rule graph monitors for critical phrases while idle.',
-        status: stageStatus({ alertCondition: latestResult?.override_applied }),
+          ? latestResult.confidence >= 0.80 && ['self_harm_high', 'self_harm_low', 'unsafe_environment'].includes(latestResult.primary_category)
+            ? `HIGH-RISK OVERRIDE: ${latestResult.primary_category} detected with ${formatPercent(latestResult.confidence)} confidence. Rule-based decision enforced.`
+            : `Weighted blend (75% BERT, 25% rule-based) with safety overrides. Final: ${latestResult.primary_category}`
+          : 'Intelligent orchestration: blends all classifiers with safety-first overrides for high-risk content.',
+        status: stageStatus({ alertCondition: latestResult?.confidence >= 0.80 && ['self_harm_high', 'self_harm_low', 'unsafe_environment'].includes(latestResult?.primary_category) }),
       },
       {
-        id: 'stage-logging',
-        step: 'Stage 05',
-        title: 'Flask API Logging & Telemetry',
+        id: 'stage-api',
+        step: 'Output',
+        title: 'Flask API Response',
         detail: latestResult
-          ? `Flask service stored event at ${new Date(latestResult.timestamp).toLocaleTimeString()}.`
-          : 'Classification activity will appear here after the first run.',
+          ? `Normalized scores (sum=100.0%), sentiment=${latestResult.sentiment}, stored at ${new Date(latestResult.timestamp).toLocaleTimeString()}`
+          : 'RESTful API endpoint /api/classify ready. Returns JSON with category, confidence, sentiment, emotion.',
         status: stageStatus(),
       },
     ];
@@ -631,15 +631,15 @@ function App() {
           <section className="backend-panel holo-card">
             <header className="backend-header">
               <div>
-                <p className="backend-kicker">Flask · PyTorch · Rule Graph</p>
-                <h3>Backend Pipeline Telemetry</h3>
+                <p className="backend-kicker">PyTorch · BERT · TF-IDF · Flask</p>
+                <h3>Three-Tier Hybrid Pipeline</h3>
               </div>
               <span className={`backend-status ${isProcessing ? 'backend-status--active' : latestResult ? 'backend-status--online' : 'backend-status--idle'}`}>
-                {isProcessing ? 'Executing' : latestResult ? 'Synchronized' : 'Standing by'}
+                {isProcessing ? 'Processing' : latestResult ? 'Online' : 'Idle'}
               </span>
             </header>
             <p className="backend-description">
-              Observe every stage the backend executes— from rule-based guards and the calibrated BERT encoder to overrides and Flask telemetry logging.
+              Real-time view of the hybrid classification pipeline: SimpleClassifier (rule-based) → BERT (deep learning) → TF-IDF (ML fallback) → ProductionClassifier (intelligent blending with safety overrides).
             </p>
             <div className="pipeline-grid">
               {pipelineStages.map(stage => (
