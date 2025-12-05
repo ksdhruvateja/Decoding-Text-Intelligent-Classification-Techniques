@@ -1,0 +1,1068 @@
+[
+  {
+    "text": "This movie was fantastic, I'd watch it again anytime",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I'm so excited about my new job!",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Had an amazing dinner with friends tonight",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I love this product, best purchase ever!",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Feeling grateful for my family today",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "This restaurant has excellent service and delicious food",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I'm proud of my accomplishments this year",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Beautiful weather today, perfect for a walk",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "My team won the championship, so happy!",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Just got promoted, feeling on top of the world",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Shipping took forever and the item was damaged",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Terrible customer service, very disappointed",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "This product is a waste of money, doesn't work at all",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Food was cold and tasted awful",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Worst experience ever, would not recommend",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "The app keeps crashing, very frustrating",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Disappointed with the quality, expected better",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Waited 2 hours for delivery, unacceptable",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "This book is 300 pages long and written in English",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "The store opens at 9 AM and closes at 6 PM",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "It takes about 30 minutes to drive there",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "The capital of France is Paris",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Water boils at 100 degrees Celsius",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "The meeting is scheduled for Tuesday at 2 PM",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "There are 12 months in a year",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "The recipe calls for 2 cups of flour",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "The stock market crashed yesterday after tech earnings disappointed",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I have three deadlines tomorrow and I'm not ready",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "So much work piling up, feeling overwhelmed",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Can't sleep worrying about the presentation",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Too many responsibilities, don't know where to start",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Work is demanding and I'm exhausted",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Financial pressure is getting to me",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I'm so stressed about passing this exam",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I feel so alone and nobody understands me",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Everything feels hopeless and dark",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I'm constantly sad and can't find joy anymore",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Lost my best friend and feel empty inside",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Depression is overwhelming me every day",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I cry every night feeling worthless",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Sometimes I think about harming myself",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I wonder if anyone would care if I was gone",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Life doesn't seem worth living sometimes",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I want to kill myself tonight",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 1,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Going to end my life, have the pills ready",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 1,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "I'm going to hurt myself right now",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 1,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "My partner threatens me when they get angry",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 1
+    }
+  },
+  {
+    "text": "I'm scared to go home because of violence",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 1
+    }
+  },
+  {
+    "text": "Someone is following me and I feel unsafe",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 1
+    }
+  },
+  {
+    "text": "My family member is abusive and hurts me",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 1,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 1
+    }
+  },
+  {
+    "text": "Absolutely loved the experience!",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Everything was perfect, highly recommend",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Best decision I ever made",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "So happy with my choice",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "This exceeded all my expectations",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Wonderful time, will definitely return",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Outstanding quality and service",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Could not be happier with the results",
+    "labels": {
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Complete disaster, avoid at all costs",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Regret buying this, total waste",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Very poor quality, falling apart already",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Service was rude and unprofessional",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Broken after one use, terrible",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Not worth the price at all",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Extremely dissatisfied with everything",
+    "labels": {
+      "positive": 0,
+      "negative": 1,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "The product weighs 5 pounds",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Available in red, blue, and green",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Shipping takes 3-5 business days",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Located on the second floor",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Made of plastic and metal",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Dimensions are 10x20x5 inches",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 1,
+      "stress": 0,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "So behind on everything, feeling panicked",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Pressure is building up, can't handle it",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Deadline stress is killing me",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Too much on my plate right now",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Anxiety about upcoming evaluation",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Worried sick about finances",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 1,
+      "emotional_distress": 0,
+      "self_harm_low": 0,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Feeling numb and disconnected",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Can't stop crying, everything hurts",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Lost all motivation for life",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Nobody cares about me anymore",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  },
+  {
+    "text": "Feeling broken and unfixable",
+    "labels": {
+      "positive": 0,
+      "negative": 0,
+      "neutral": 0,
+      "stress": 0,
+      "emotional_distress": 1,
+      "self_harm_low": 1,
+      "self_harm_high": 0,
+      "unsafe_environment": 0
+    }
+  }
+]

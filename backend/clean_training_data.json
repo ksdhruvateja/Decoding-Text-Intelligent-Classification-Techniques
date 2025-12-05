@@ -1,0 +1,1786 @@
+[
+  {
+    "text": "The interface is USB 3.0",
+    "category": "neutral"
+  },
+  {
+    "text": "This has surge protection",
+    "category": "neutral"
+  },
+  {
+    "text": "I wonder what it would be like to disappear",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "The loneliness is crushing me",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Perfect gift, they loved it",
+    "category": "positive"
+  },
+  {
+    "text": "This doesn't meet standards",
+    "category": "negative"
+  },
+  {
+    "text": "This includes power adapter",
+    "category": "neutral"
+  },
+  {
+    "text": "The item ships within 3 days",
+    "category": "neutral"
+  },
+  {
+    "text": "This weighs approximately 2 pounds",
+    "category": "neutral"
+  },
+  {
+    "text": "This is poorly engineered",
+    "category": "negative"
+  },
+  {
+    "text": "The output is 5 watts",
+    "category": "neutral"
+  },
+  {
+    "text": "I'll destroy you and everything you love",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "I want to harm myself severely",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "This is completely unsuitable",
+    "category": "negative"
+  },
+  {
+    "text": "Terrible components used",
+    "category": "negative"
+  },
+  {
+    "text": "I feel so empty inside",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Excellent in every aspect",
+    "category": "positive"
+  },
+  {
+    "text": "Absolutely love the design",
+    "category": "positive"
+  },
+  {
+    "text": "Fantastic results every time",
+    "category": "positive"
+  },
+  {
+    "text": "Couldn't be happier with this",
+    "category": "positive"
+  },
+  {
+    "text": "Bills are piling up and I can't pay",
+    "category": "stress"
+  },
+  {
+    "text": "Terrible product entirely",
+    "category": "negative"
+  },
+  {
+    "text": "Can't handle this anymore",
+    "category": "stress"
+  },
+  {
+    "text": "Everything is piling up too fast",
+    "category": "stress"
+  },
+  {
+    "text": "I want to hurt myself badly",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "This works perfectly for me",
+    "category": "positive"
+  },
+  {
+    "text": "Nothing brings me joy anymore",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Can't keep up with demands",
+    "category": "stress"
+  },
+  {
+    "text": "Broke within a week of use",
+    "category": "negative"
+  },
+  {
+    "text": "Thoughts of escape cross my mind",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "Sometimes I wish I could just stop",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "This charges via USB-C",
+    "category": "neutral"
+  },
+  {
+    "text": "Love how easy it is to use",
+    "category": "positive"
+  },
+  {
+    "text": "You better watch your back",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This includes mounting hardware",
+    "category": "neutral"
+  },
+  {
+    "text": "Too much stress to bear",
+    "category": "stress"
+  },
+  {
+    "text": "Very disappointed with quality",
+    "category": "negative"
+  },
+  {
+    "text": "The range is 30 feet",
+    "category": "neutral"
+  },
+  {
+    "text": "This is unacceptably poor",
+    "category": "negative"
+  },
+  {
+    "text": "I'm ready to kill myself",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "This operates on batteries",
+    "category": "neutral"
+  },
+  {
+    "text": "This is completely flawed",
+    "category": "negative"
+  },
+  {
+    "text": "The frequency is 60 Hz",
+    "category": "neutral"
+  },
+  {
+    "text": "This includes instruction manual",
+    "category": "neutral"
+  },
+  {
+    "text": "You're all going to die",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This has wireless connectivity",
+    "category": "neutral"
+  },
+  {
+    "text": "This is unacceptably defective",
+    "category": "negative"
+  },
+  {
+    "text": "Awful customer support",
+    "category": "negative"
+  },
+  {
+    "text": "This performs flawlessly",
+    "category": "positive"
+  },
+  {
+    "text": "Terrible longevity",
+    "category": "negative"
+  },
+  {
+    "text": "This doesn't function properly",
+    "category": "negative"
+  },
+  {
+    "text": "Too stressed to function properly",
+    "category": "stress"
+  },
+  {
+    "text": "Sometimes I think about not being here",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "Superb quality and attention to detail",
+    "category": "positive"
+  },
+  {
+    "text": "The stock market crashed and I lost everything",
+    "category": "stress"
+  },
+  {
+    "text": "Terrible craftsmanship",
+    "category": "negative"
+  },
+  {
+    "text": "Horrible quality issues",
+    "category": "negative"
+  },
+  {
+    "text": "The cord length is 10 feet",
+    "category": "neutral"
+  },
+  {
+    "text": "Awful manufacturing",
+    "category": "negative"
+  },
+  {
+    "text": "This is badly manufactured",
+    "category": "negative"
+  },
+  {
+    "text": "The material is stainless steel",
+    "category": "neutral"
+  },
+  {
+    "text": "The width is 24 inches",
+    "category": "neutral"
+  },
+  {
+    "text": "Very poor materials used",
+    "category": "negative"
+  },
+  {
+    "text": "Everything is spiraling out of control",
+    "category": "stress"
+  },
+  {
+    "text": "I want to die right now",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "I feel worthless and broken",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This features touch controls",
+    "category": "neutral"
+  },
+  {
+    "text": "Awful reliability",
+    "category": "negative"
+  },
+  {
+    "text": "This has anti-slip coating",
+    "category": "neutral"
+  },
+  {
+    "text": "The sadness never ends",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This works like a charm",
+    "category": "positive"
+  },
+  {
+    "text": "I have dark thoughts sometimes",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "Horrible experience, would not recommend",
+    "category": "negative"
+  },
+  {
+    "text": "Everything is falling apart",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Wonderful experience from start to finish",
+    "category": "positive"
+  },
+  {
+    "text": "The pressure is making me sick",
+    "category": "stress"
+  },
+  {
+    "text": "Can't find relief anywhere",
+    "category": "stress"
+  },
+  {
+    "text": "Everything feels pointless",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Too many bills, not enough income",
+    "category": "stress"
+  },
+  {
+    "text": "This features LED display",
+    "category": "neutral"
+  },
+  {
+    "text": "Very disappointing results",
+    "category": "negative"
+  },
+  {
+    "text": "This is wonderful, works great",
+    "category": "positive"
+  },
+  {
+    "text": "Sometimes I don't want to wake up",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "This includes spare parts",
+    "category": "neutral"
+  },
+  {
+    "text": "Love the premium feel",
+    "category": "positive"
+  },
+  {
+    "text": "The memory is 16 gigabytes",
+    "category": "neutral"
+  },
+  {
+    "text": "The manual has 20 pages",
+    "category": "neutral"
+  },
+  {
+    "text": "The stress never stops",
+    "category": "stress"
+  },
+  {
+    "text": "Excellent performance and reliability",
+    "category": "positive"
+  },
+  {
+    "text": "This is cheaply made",
+    "category": "negative"
+  },
+  {
+    "text": "Great design and usability",
+    "category": "positive"
+  },
+  {
+    "text": "Terrible design choices",
+    "category": "negative"
+  },
+  {
+    "text": "Very dissatisfied overall",
+    "category": "negative"
+  },
+  {
+    "text": "This is expertly engineered",
+    "category": "positive"
+  },
+  {
+    "text": "This malfunctions constantly",
+    "category": "negative"
+  },
+  {
+    "text": "The anguish is constant",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "I have too many things to worry about",
+    "category": "stress"
+  },
+  {
+    "text": "This supports Bluetooth",
+    "category": "neutral"
+  },
+  {
+    "text": "Everything feels hopeless",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This has magnetic closure",
+    "category": "neutral"
+  },
+  {
+    "text": "Love the sleek design",
+    "category": "positive"
+  },
+  {
+    "text": "Everything feels like too much",
+    "category": "stress"
+  },
+  {
+    "text": "Amazing product, works perfectly",
+    "category": "positive"
+  },
+  {
+    "text": "Love every feature",
+    "category": "positive"
+  },
+  {
+    "text": "This uses standard batteries",
+    "category": "neutral"
+  },
+  {
+    "text": "This is expertly crafted",
+    "category": "positive"
+  },
+  {
+    "text": "I will destroy you all",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This is woefully inadequate",
+    "category": "negative"
+  },
+  {
+    "text": "This doesn't work as advertised",
+    "category": "negative"
+  },
+  {
+    "text": "I love this product, it works perfectly",
+    "category": "positive"
+  },
+  {
+    "text": "Awful build throughout",
+    "category": "negative"
+  },
+  {
+    "text": "Terrible value for money",
+    "category": "negative"
+  },
+  {
+    "text": "The product is damaged and useless",
+    "category": "negative"
+  },
+  {
+    "text": "The store opens at 9 AM",
+    "category": "neutral"
+  },
+  {
+    "text": "You're not safe anymore",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Amazing craftsmanship",
+    "category": "positive"
+  },
+  {
+    "text": "I'll hurt your family",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Horrible defects throughout",
+    "category": "negative"
+  },
+  {
+    "text": "Horrible execution",
+    "category": "negative"
+  },
+  {
+    "text": "Terrible customer service, very rude",
+    "category": "negative"
+  },
+  {
+    "text": "Horrible construction",
+    "category": "negative"
+  },
+  {
+    "text": "Sometimes I wish I could just vanish",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "I'm going to hurt you badly",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This is poorly assembled",
+    "category": "negative"
+  },
+  {
+    "text": "Love the functionality",
+    "category": "positive"
+  },
+  {
+    "text": "This is badly designed",
+    "category": "negative"
+  },
+  {
+    "text": "You won't survive this",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "I will kill you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This is poorly finished",
+    "category": "negative"
+  },
+  {
+    "text": "Disappointed with the poor service",
+    "category": "negative"
+  },
+  {
+    "text": "This is utterly useless",
+    "category": "negative"
+  },
+  {
+    "text": "Everything feels so heavy",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Love the attention to detail",
+    "category": "positive"
+  },
+  {
+    "text": "I wonder about just giving up",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "I'm going to beat you up",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Great features and performance",
+    "category": "positive"
+  },
+  {
+    "text": "Facing foreclosure on my house",
+    "category": "stress"
+  },
+  {
+    "text": "This is waterproof rated",
+    "category": "neutral"
+  },
+  {
+    "text": "The grief is too much to bear",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Can't relax, always on edge",
+    "category": "stress"
+  },
+  {
+    "text": "This is completely broken",
+    "category": "negative"
+  },
+  {
+    "text": "My health is suffering from stress",
+    "category": "stress"
+  },
+  {
+    "text": "The price is 50 dollars",
+    "category": "neutral"
+  },
+  {
+    "text": "This is significantly flawed",
+    "category": "negative"
+  },
+  {
+    "text": "This is severely flawed",
+    "category": "negative"
+  },
+  {
+    "text": "The document contains 10 sections",
+    "category": "neutral"
+  },
+  {
+    "text": "Thoughts of not existing cross my mind",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "This is wonderful quality",
+    "category": "positive"
+  },
+  {
+    "text": "Everything is too much to handle",
+    "category": "stress"
+  },
+  {
+    "text": "The dimensions are 10x8x6 inches",
+    "category": "neutral"
+  },
+  {
+    "text": "I will harm you physically",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Amazing functionality",
+    "category": "positive"
+  },
+  {
+    "text": "Going to cut myself tonight",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Feeling completely burnt out",
+    "category": "stress"
+  },
+  {
+    "text": "I'm bringing my weapon",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Very frustrating experience",
+    "category": "negative"
+  },
+  {
+    "text": "The stress is consuming me",
+    "category": "stress"
+  },
+  {
+    "text": "Terrible build quality",
+    "category": "negative"
+  },
+  {
+    "text": "This comes in three sizes",
+    "category": "neutral"
+  },
+  {
+    "text": "Everything is too painful",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "I'll stab you when you sleep",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Stress levels are critical",
+    "category": "stress"
+  },
+  {
+    "text": "This product broke after just two days",
+    "category": "negative"
+  },
+  {
+    "text": "Can't sleep worrying about finances",
+    "category": "stress"
+  },
+  {
+    "text": "This is unacceptable and frustrating",
+    "category": "negative"
+  },
+  {
+    "text": "I'm so happy with this purchase",
+    "category": "positive"
+  },
+  {
+    "text": "This performs beautifully",
+    "category": "positive"
+  },
+  {
+    "text": "Very impressed with this",
+    "category": "positive"
+  },
+  {
+    "text": "This comes fully assembled",
+    "category": "neutral"
+  },
+  {
+    "text": "I'm lost in this emptiness",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Feeling totally overwhelmed",
+    "category": "stress"
+  },
+  {
+    "text": "This broke too easily",
+    "category": "negative"
+  },
+  {
+    "text": "The resolution is 1080p",
+    "category": "neutral"
+  },
+  {
+    "text": "This broke on first use",
+    "category": "negative"
+  },
+  {
+    "text": "Worried sick about money problems",
+    "category": "stress"
+  },
+  {
+    "text": "I want to kill myself",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Bankruptcy is my only option",
+    "category": "stress"
+  },
+  {
+    "text": "I feel numb to everything",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Wonder if anyone would notice if I was gone",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "This exceeded my standards",
+    "category": "positive"
+  },
+  {
+    "text": "Outstanding performance, highly recommended",
+    "category": "positive"
+  },
+  {
+    "text": "This uses rechargeable battery",
+    "category": "neutral"
+  },
+  {
+    "text": "Terrible materials",
+    "category": "negative"
+  },
+  {
+    "text": "Can't cope with daily pressure",
+    "category": "stress"
+  },
+  {
+    "text": "This malfunctioned immediately",
+    "category": "negative"
+  },
+  {
+    "text": "Horrible value proposition",
+    "category": "negative"
+  },
+  {
+    "text": "I'm going to hurt everyone there",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "The stress is physically affecting me",
+    "category": "stress"
+  },
+  {
+    "text": "The quality is shockingly bad",
+    "category": "negative"
+  },
+  {
+    "text": "Planning to overdose tonight",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "This requires assembly",
+    "category": "neutral"
+  },
+  {
+    "text": "This exceeds expectations",
+    "category": "positive"
+  },
+  {
+    "text": "Perfect in every way",
+    "category": "positive"
+  },
+  {
+    "text": "I'm ready to die now",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "I'm going to end my life tonight",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Sometimes I have thoughts of ending it",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "This is absolutely brilliant",
+    "category": "positive"
+  },
+  {
+    "text": "This is manufactured in China",
+    "category": "neutral"
+  },
+  {
+    "text": "This is superb quality",
+    "category": "positive"
+  },
+  {
+    "text": "This failed prematurely",
+    "category": "negative"
+  },
+  {
+    "text": "This supports dual monitors",
+    "category": "neutral"
+  },
+  {
+    "text": "This includes carry case",
+    "category": "neutral"
+  },
+  {
+    "text": "Can't handle one more thing",
+    "category": "stress"
+  },
+  {
+    "text": "Sometimes I think about checking out",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "Life would be easier if I wasn't around",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "Thrilled with my purchase",
+    "category": "positive"
+  },
+  {
+    "text": "I'll make you pay with your life",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "I'm going to attack you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "The package includes batteries",
+    "category": "neutral"
+  },
+  {
+    "text": "I'm planning an attack",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "I will murder you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Great product at a great price",
+    "category": "positive"
+  },
+  {
+    "text": "You're dead when I find you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Can't afford basic necessities anymore",
+    "category": "stress"
+  },
+  {
+    "text": "Excellent choice, very satisfied",
+    "category": "positive"
+  },
+  {
+    "text": "Disappointing performance throughout",
+    "category": "negative"
+  },
+  {
+    "text": "Terrible reliability problems",
+    "category": "negative"
+  },
+  {
+    "text": "The hurt is too deep",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Can't handle all this pressure anymore",
+    "category": "stress"
+  },
+  {
+    "text": "Terrible durability",
+    "category": "negative"
+  },
+  {
+    "text": "The distance is 5 miles",
+    "category": "neutral"
+  },
+  {
+    "text": "This is premium quality",
+    "category": "positive"
+  },
+  {
+    "text": "The product is available in blue and red",
+    "category": "neutral"
+  },
+  {
+    "text": "Fantastic build quality",
+    "category": "positive"
+  },
+  {
+    "text": "I have a plan to end my life",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Frustrated with constant issues",
+    "category": "negative"
+  },
+  {
+    "text": "Fantastic quality and quick delivery",
+    "category": "positive"
+  },
+  {
+    "text": "This has a 30-day return policy",
+    "category": "neutral"
+  },
+  {
+    "text": "The pain is unbearable",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Fantastic durability",
+    "category": "positive"
+  },
+  {
+    "text": "Very unhappy with this purchase",
+    "category": "negative"
+  },
+  {
+    "text": "Everything is happening at once",
+    "category": "stress"
+  },
+  {
+    "text": "This is absolutely perfect",
+    "category": "positive"
+  },
+  {
+    "text": "This supports multiple formats",
+    "category": "neutral"
+  },
+  {
+    "text": "This is completely broken",
+    "category": "negative"
+  },
+  {
+    "text": "Wonderful product all around",
+    "category": "positive"
+  },
+  {
+    "text": "I feel like I'm falling apart",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Very dissatisfied customer",
+    "category": "negative"
+  },
+  {
+    "text": "Feeling completely stretched thin",
+    "category": "stress"
+  },
+  {
+    "text": "Love the elegant design",
+    "category": "positive"
+  },
+  {
+    "text": "This is incredibly useful",
+    "category": "positive"
+  },
+  {
+    "text": "Drowning in deadlines and responsibilities",
+    "category": "stress"
+  },
+  {
+    "text": "Feeling panicked all the time",
+    "category": "stress"
+  },
+  {
+    "text": "I'm ending my life soon",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Worst purchase I've ever made",
+    "category": "negative"
+  },
+  {
+    "text": "This is a game changer",
+    "category": "positive"
+  },
+  {
+    "text": "Everything hurts so much",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Wonder what it's like to not exist",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "This is awful, doesn't work at all",
+    "category": "negative"
+  },
+  {
+    "text": "The temperature is 72 degrees",
+    "category": "neutral"
+  },
+  {
+    "text": "This performs exceptionally well",
+    "category": "positive"
+  },
+  {
+    "text": "This works wonderfully",
+    "category": "positive"
+  },
+  {
+    "text": "Awesome features and easy to use",
+    "category": "positive"
+  },
+  {
+    "text": "The capacity is 2 liters",
+    "category": "neutral"
+  },
+  {
+    "text": "Deep in debt with no way out",
+    "category": "stress"
+  },
+  {
+    "text": "Too much work, not enough time",
+    "category": "stress"
+  },
+  {
+    "text": "I feel invisible and forgotten",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "The color is matte black",
+    "category": "neutral"
+  },
+  {
+    "text": "I can't see a way forward",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This failed immediately",
+    "category": "negative"
+  },
+  {
+    "text": "Can't breathe under this pressure",
+    "category": "stress"
+  },
+  {
+    "text": "Thrilled with the quality",
+    "category": "positive"
+  },
+  {
+    "text": "Can't find any reason to smile",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Excellent value and quality",
+    "category": "positive"
+  },
+  {
+    "text": "This is badly broken",
+    "category": "negative"
+  },
+  {
+    "text": "Planning to kill myself this week",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Excellent service and great quality",
+    "category": "positive"
+  },
+  {
+    "text": "Great product, very reliable",
+    "category": "positive"
+  },
+  {
+    "text": "Very unhappy customer",
+    "category": "negative"
+  },
+  {
+    "text": "The coverage is nationwide",
+    "category": "neutral"
+  },
+  {
+    "text": "Very poor performance",
+    "category": "negative"
+  },
+  {
+    "text": "Life feels meaningless right now",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This has automatic shutoff",
+    "category": "neutral"
+  },
+  {
+    "text": "This is beautifully designed",
+    "category": "positive"
+  },
+  {
+    "text": "This is badly damaged",
+    "category": "negative"
+  },
+  {
+    "text": "This features quick-release",
+    "category": "neutral"
+  },
+  {
+    "text": "Everything is getting worse",
+    "category": "stress"
+  },
+  {
+    "text": "Terrible consistency",
+    "category": "negative"
+  },
+  {
+    "text": "This is brilliant engineering",
+    "category": "positive"
+  },
+  {
+    "text": "Delicious food and great atmosphere",
+    "category": "positive"
+  },
+  {
+    "text": "Great product, highly satisfied",
+    "category": "positive"
+  },
+  {
+    "text": "Feeling completely overwhelmed and stressed",
+    "category": "stress"
+  },
+  {
+    "text": "This is badly executed",
+    "category": "negative"
+  },
+  {
+    "text": "Very pleased with everything",
+    "category": "positive"
+  },
+  {
+    "text": "Feeling crushed by expectations",
+    "category": "stress"
+  },
+  {
+    "text": "Very happy with my decision",
+    "category": "positive"
+  },
+  {
+    "text": "Amazing customer service",
+    "category": "positive"
+  },
+  {
+    "text": "Wonderful purchase, no regrets",
+    "category": "positive"
+  },
+  {
+    "text": "I'm trapped in misery",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This is compatible with Windows",
+    "category": "neutral"
+  },
+  {
+    "text": "Terrible assembly",
+    "category": "negative"
+  },
+  {
+    "text": "This is made of plastic material",
+    "category": "neutral"
+  },
+  {
+    "text": "I fantasize about not being alive",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "I'm going to shoot you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Awful experience from start to finish",
+    "category": "negative"
+  },
+  {
+    "text": "This is poorly designed",
+    "category": "negative"
+  },
+  {
+    "text": "This model was released in 2024",
+    "category": "neutral"
+  },
+  {
+    "text": "I feel utterly alone",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This includes USB cable",
+    "category": "neutral"
+  },
+  {
+    "text": "Can't escape this overwhelming feeling",
+    "category": "stress"
+  },
+  {
+    "text": "Highly recommend this product",
+    "category": "positive"
+  },
+  {
+    "text": "This features auto-detect",
+    "category": "neutral"
+  },
+  {
+    "text": "I'll bring a gun tomorrow",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Amazing build and finish",
+    "category": "positive"
+  },
+  {
+    "text": "I'm drowning in sadness",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "I think about ending things sometimes",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "Excellent purchase overall",
+    "category": "positive"
+  },
+  {
+    "text": "The burden is too heavy",
+    "category": "stress"
+  },
+  {
+    "text": "This contains 500 grams",
+    "category": "neutral"
+  },
+  {
+    "text": "Outstanding value and quality",
+    "category": "positive"
+  },
+  {
+    "text": "Ready to commit suicide",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "I'm going to hang myself",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Can't escape this darkness",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This is poorly constructed",
+    "category": "negative"
+  },
+  {
+    "text": "This is completely inadequate",
+    "category": "negative"
+  },
+  {
+    "text": "The pressure is getting unbearable",
+    "category": "stress"
+  },
+  {
+    "text": "The depth is 12 inches",
+    "category": "neutral"
+  },
+  {
+    "text": "Great quality and reliability",
+    "category": "positive"
+  },
+  {
+    "text": "The file size is 2 megabytes",
+    "category": "neutral"
+  },
+  {
+    "text": "This is beautifully made",
+    "category": "positive"
+  },
+  {
+    "text": "I'm lost in darkness",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This exceeded all my hopes",
+    "category": "positive"
+  },
+  {
+    "text": "I'm planning violence against you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Very poor quality control",
+    "category": "negative"
+  },
+  {
+    "text": "This movie was absolutely fantastic and amazing",
+    "category": "positive"
+  },
+  {
+    "text": "This performs admirably",
+    "category": "positive"
+  },
+  {
+    "text": "This is perfectly designed",
+    "category": "positive"
+  },
+  {
+    "text": "Very impressed with the performance",
+    "category": "positive"
+  },
+  {
+    "text": "The movie was boring and way too long",
+    "category": "negative"
+  },
+  {
+    "text": "This is extremely disappointing",
+    "category": "negative"
+  },
+  {
+    "text": "Can't manage everything anymore",
+    "category": "stress"
+  },
+  {
+    "text": "Very poor workmanship",
+    "category": "negative"
+  },
+  {
+    "text": "The product stopped working",
+    "category": "negative"
+  },
+  {
+    "text": "Very unhappy with everything",
+    "category": "negative"
+  },
+  {
+    "text": "This failed my expectations",
+    "category": "negative"
+  },
+  {
+    "text": "The pressure never lets up",
+    "category": "stress"
+  },
+  {
+    "text": "Everything is falling apart financially",
+    "category": "stress"
+  },
+  {
+    "text": "The height is 18 inches",
+    "category": "neutral"
+  },
+  {
+    "text": "The voltage is 110 volts",
+    "category": "neutral"
+  },
+  {
+    "text": "I want to die and have a plan",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "I'm completely lost and alone",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Very frustrated user",
+    "category": "negative"
+  },
+  {
+    "text": "This requires WiFi connection",
+    "category": "neutral"
+  },
+  {
+    "text": "You're my target",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Wonderful quality and design",
+    "category": "positive"
+  },
+  {
+    "text": "The weight of responsibility is crushing",
+    "category": "stress"
+  },
+  {
+    "text": "The weight limit is 50 pounds",
+    "category": "neutral"
+  },
+  {
+    "text": "My financial situation is dire",
+    "category": "stress"
+  },
+  {
+    "text": "Brilliant solution to my problem",
+    "category": "positive"
+  },
+  {
+    "text": "This failed spectacularly",
+    "category": "negative"
+  },
+  {
+    "text": "Awful design flaws",
+    "category": "negative"
+  },
+  {
+    "text": "I'm going to take all these pills",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "I'm bringing weapons to school",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "The emptiness won't go away",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "I'm coming to get you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This is incredibly frustrating",
+    "category": "negative"
+  },
+  {
+    "text": "Beautiful design and flawless execution",
+    "category": "positive"
+  },
+  {
+    "text": "Constantly worried about everything",
+    "category": "stress"
+  },
+  {
+    "text": "I feel completely defeated",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "I'm suffocating in sorrow",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Incredible value for money",
+    "category": "positive"
+  },
+  {
+    "text": "The pain never stops",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "The format is MP4",
+    "category": "neutral"
+  },
+  {
+    "text": "Best purchase I've ever made",
+    "category": "positive"
+  },
+  {
+    "text": "Love how well this works",
+    "category": "positive"
+  },
+  {
+    "text": "This book is 300 pages long",
+    "category": "neutral"
+  },
+  {
+    "text": "Amazing attention to detail",
+    "category": "positive"
+  },
+  {
+    "text": "The sadness is overwhelming",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "The angle is adjustable",
+    "category": "neutral"
+  },
+  {
+    "text": "Wonder if it would be better to go",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "My savings are completely wiped out",
+    "category": "stress"
+  },
+  {
+    "text": "Planning to hurt myself tonight",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Terrible functionality",
+    "category": "negative"
+  },
+  {
+    "text": "Sometimes I think about the end",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "I'm drowning in depression",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "The stress is relentless",
+    "category": "stress"
+  },
+  {
+    "text": "Fantastic experience overall",
+    "category": "positive"
+  },
+  {
+    "text": "Lost my job and don't know what to do",
+    "category": "stress"
+  },
+  {
+    "text": "The input is HDMI",
+    "category": "neutral"
+  },
+  {
+    "text": "Everything hurts too much",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "I'm going to make you suffer",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Exhausted from constant stress",
+    "category": "stress"
+  },
+  {
+    "text": "I'm so overwhelmed with everything right now",
+    "category": "stress"
+  },
+  {
+    "text": "This is fantastically made",
+    "category": "positive"
+  },
+  {
+    "text": "The cable is detachable",
+    "category": "neutral"
+  },
+  {
+    "text": "The speed is adjustable",
+    "category": "neutral"
+  },
+  {
+    "text": "Awful experience overall",
+    "category": "negative"
+  },
+  {
+    "text": "Very regrettable purchase",
+    "category": "negative"
+  },
+  {
+    "text": "This is completely useless",
+    "category": "negative"
+  },
+  {
+    "text": "Terrible finishing",
+    "category": "negative"
+  },
+  {
+    "text": "Can't think clearly anymore",
+    "category": "stress"
+  },
+  {
+    "text": "Love the professional quality",
+    "category": "positive"
+  },
+  {
+    "text": "This stopped functioning",
+    "category": "negative"
+  },
+  {
+    "text": "Stressed beyond my limits",
+    "category": "stress"
+  },
+  {
+    "text": "You're going to die tonight",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This is badly constructed",
+    "category": "negative"
+  },
+  {
+    "text": "This is poorly made",
+    "category": "negative"
+  },
+  {
+    "text": "I will end you",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "You won't make it out alive",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "Very pleased with the quality",
+    "category": "positive"
+  },
+  {
+    "text": "I can't stop crying anymore",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "This is completely defective",
+    "category": "negative"
+  },
+  {
+    "text": "This has timer function",
+    "category": "neutral"
+  },
+  {
+    "text": "Exceeded my expectations completely",
+    "category": "positive"
+  },
+  {
+    "text": "The capacity is expandable",
+    "category": "neutral"
+  },
+  {
+    "text": "This is brilliantly designed",
+    "category": "positive"
+  },
+  {
+    "text": "This made my day so much better",
+    "category": "positive"
+  },
+  {
+    "text": "The finish is brushed metal",
+    "category": "neutral"
+  },
+  {
+    "text": "Highly recommend to everyone",
+    "category": "positive"
+  },
+  {
+    "text": "This is perfectly executed",
+    "category": "positive"
+  },
+  {
+    "text": "This measures 15 inches wide",
+    "category": "neutral"
+  },
+  {
+    "text": "I'm trapped in this sadness",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "I think about not continuing",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "I want to end this pain by dying",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "The meeting is scheduled for Tuesday",
+    "category": "neutral"
+  },
+  {
+    "text": "The speed is 100 Mbps",
+    "category": "neutral"
+  },
+  {
+    "text": "This includes cleaning cloth",
+    "category": "neutral"
+  },
+  {
+    "text": "This is brilliant, exceeded all expectations",
+    "category": "positive"
+  },
+  {
+    "text": "I'm lost in despair",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "Highly satisfied with the results",
+    "category": "positive"
+  },
+  {
+    "text": "The runtime is 120 minutes",
+    "category": "neutral"
+  },
+  {
+    "text": "Life feels like it's not worth living",
+    "category": "self_harm_low"
+  },
+  {
+    "text": "Can't cope with all these demands",
+    "category": "stress"
+  },
+  {
+    "text": "This has indicator lights",
+    "category": "neutral"
+  },
+  {
+    "text": "The thickness is 2 inches",
+    "category": "neutral"
+  },
+  {
+    "text": "Love everything about this",
+    "category": "positive"
+  },
+  {
+    "text": "Terrible quality, complete waste of money",
+    "category": "negative"
+  },
+  {
+    "text": "Stress is ruining my life",
+    "category": "stress"
+  },
+  {
+    "text": "Horrible performance issues",
+    "category": "negative"
+  },
+  {
+    "text": "This includes mounting screws",
+    "category": "neutral"
+  },
+  {
+    "text": "I'm planning my suicide",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "Going to jump tonight",
+    "category": "self_harm_high"
+  },
+  {
+    "text": "My anxiety is through the roof",
+    "category": "stress"
+  },
+  {
+    "text": "This is a perfect fit",
+    "category": "positive"
+  },
+  {
+    "text": "Nothing matters anymore",
+    "category": "emotional_distress"
+  },
+  {
+    "text": "The warranty lasts one year",
+    "category": "neutral"
+  },
+  {
+    "text": "Excellent build quality",
+    "category": "positive"
+  },
+  {
+    "text": "You're going to regret this",
+    "category": "unsafe_environment"
+  },
+  {
+    "text": "This is incredibly well made",
+    "category": "positive"
+  },
+  {
+    "text": "The length is 6 feet",
+    "category": "neutral"
+  },
+  {
+    "text": "Financial stress is killing me",
+    "category": "stress"
+  },
+  {
+    "text": "This is a total disappointment",
+    "category": "negative"
+  },
+  {
+    "text": "This is outstanding quality",
+    "category": "positive"
+  },
+  {
+    "text": "This is exactly what I needed",
+    "category": "positive"
+  },
+  {
+    "text": "This is unacceptably bad",
+    "category": "negative"
+  },
+  {
+    "text": "I feel completely broken inside",
+    "category": "emotional_distress"
+  }
+]

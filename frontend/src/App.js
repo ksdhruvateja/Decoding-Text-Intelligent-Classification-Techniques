@@ -8,6 +8,7 @@ function App() {
   const [isProcessing, setIsProcessing] = useState(false);
   const [availableCategories, setAvailableCategories] = useState([]);
   const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
 
   const chatContainerRef = useRef(null);
   const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
@@ -48,7 +49,8 @@ function App() {
     setErrorMessage('');
 
     try {
-      const response = await fetch(`${API_BASE_URL}/classify`, {
+      // Request both JSON and formatted block for display
+      const jsonRespPromise = fetch(`${API_BASE_URL}/classify`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,14 +60,29 @@ function App() {
           threshold: 0.5,
         }),
       });
+      const blockRespPromise = fetch(`${API_BASE_URL}/classify-formatted`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text: textContent }),
+      });
 
-      if (!response.ok) {
+      const [jsonResp, blockResp] = await Promise.all([jsonRespPromise, blockRespPromise]);
+
+      if (!jsonResp.ok) {
         throw new Error('Classification request failed');
       }
+      const classificationData = await jsonResp.json();
 
-      const classificationData = await response.json();
-      setChatHistory(prev => [...prev, classificationData]);
-      return classificationData;
+      let formattedBlock = '';
+      if (blockResp.ok) {
+        formattedBlock = await blockResp.text();
+      }
+
+      const merged = { ...classificationData, formatted_block: formattedBlock };
+      setChatHistory(prev => [...prev, merged]);
+      return merged;
     } catch (error) {
       setErrorMessage('Failed to classify text. Please try again.');
       console.error('Classification error:', error);
@@ -89,13 +106,33 @@ function App() {
 
   const clearChatHistory = async () => {
     try {
-      await fetch(`${API_BASE_URL}/history/clear`, {
+      setErrorMessage('');
+      setSuccessMessage('');
+      
+      const response = await fetch(`${API_BASE_URL}/history/clear`, {
         method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
       });
+      
+      if (!response.ok) {
+        throw new Error('Failed to clear history');
+      }
+      
+      const data = await response.json();
       setChatHistory([]);
       setErrorMessage('');
+      setSuccessMessage('Telemetry log cleared successfully');
+      
+      // Clear success message after 3 seconds
+      setTimeout(() => setSuccessMessage(''), 3000);
+      
+      console.log('History cleared:', data.message);
     } catch (error) {
       console.error('Error clearing history:', error);
+      setErrorMessage('Failed to clear telemetry log. Please try again.');
+      setSuccessMessage('');
     }
   };
 
@@ -271,6 +308,11 @@ function App() {
                 <span>{errorMessage}</span>
               </div>
             )}
+            {successMessage && (
+              <div className="alert-banner" style={{ backgroundColor: '#10b981', borderColor: '#059669' }}>
+                <span>{successMessage}</span>
+              </div>
+            )}
 
             <div className="chat-stream" ref={chatContainerRef}>
               {chatHistory.length === 0 ? (
@@ -286,17 +328,18 @@ function App() {
                         {new Date(item.timestamp).toLocaleTimeString()}
                       </span>
                     {(() => {
-                      const safeStates = ['safe', 'neutral'];
-                      const isSafe = safeStates.includes(item.sentiment);
-                      const isCritical = item.sentiment === 'high_risk';
+                      const highRiskCategories = ['self_harm_high', 'self_harm_low', 'unsafe_environment'];
+                      const isHighRisk = highRiskCategories.includes(item.primary_category);
+                      const safeStates = ['safe', 'neutral', 'positive'];
+                      const isSafe = safeStates.includes(item.sentiment) && !isHighRisk;
                       const statusClass = isSafe
                         ? 'meta-status--safe'
-                        : isCritical
+                        : isHighRisk
                           ? 'meta-status--alert'
                           : 'meta-status--warn';
                       const statusLabel = isSafe
                         ? 'Safe channel'
-                        : isCritical
+                        : isHighRisk
                           ? 'Critical alert'
                           : 'Alert raised';
                       return (
@@ -316,6 +359,12 @@ function App() {
                       <strong>{item.emotion || 'neutral'}</strong>
                     </div>
 
+                    {item.formatted_block && (
+                      <pre className="formatted-block" aria-label="Formatted classification block">
+                        {item.formatted_block}
+                      </pre>
+                    )}
+
                     {item.predictions && item.predictions.length > 0 && (
                       <div className="prediction-stack">
                         <p className="stack-title">Detected labels</p>
@@ -327,7 +376,7 @@ function App() {
                               style={{ borderColor: getCategoryColor(pred.label) }}
                             >
                               <span>{pred.label.replace('_', ' ')}</span>
-                              <strong>{(pred.confidence * 100).toFixed(1)}%</strong>
+                              <strong>{((pred.score || pred.confidence) * 100).toFixed(1)}%</strong>
                             </div>
                           ))}
                         </div>
@@ -519,7 +568,7 @@ function App() {
                               {item.analysis_details.classification_reasoning.map((reason, idx) => (
                                 <div key={idx} className="reasoning-item">
                                   {reason.label && (
-                                    <p><strong>{reason.label}:</strong> {(reason.confidence * 100).toFixed(1)}% confidence</p>
+                                    <p><strong>{reason.label}:</strong> {((reason.score || reason.confidence) * 100).toFixed(1)}% confidence</p>
                                   )}
                                   {reason.explanation && <p>{reason.explanation}</p>}
                                   {reason.type && <p><em>Rule-based override applied</em></p>}
